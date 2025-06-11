@@ -18,6 +18,11 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.20' # 或者选择你需要的 Go 版本    
+
       - name: Install dependencies
         run: |
           sudo apt-get update
@@ -46,15 +51,18 @@ jobs:
           sort -u ziyongrulerZ_temp > ziyongrulerZ1
           rm ziyongdnsZ_temp ziyongrulerZ_temp
 
+      - name: Install HostlistCompiler
+        run: go install github.com/AdguardTeam/HostlistCompiler@latest
+
       - name: Optimize DNS rules
-        uses: docker://ghcr.io/adguardteam/hostlistcompiler:latest
-        with:
-          args: -i ziyongdnsZ1 -o ziyongdnsZ
+        run: |
+          HOSTLISTCOMPILER_PATH=$(go env GOPATH)/bin/HostlistCompiler
+          $HOSTLISTCOMPILER_PATH -i ziyongdnsZ1 -o ziyongdnsZ
 
       - name: Optimize General rules
-        uses: docker://ghcr.io/adguardteam/hostlistcompiler:latest
-        with:
-          args: -i ziyongrulerZ1 -o ziyongrulerZ
+        run: |
+          HOSTLISTCOMPILER_PATH=$(go env GOPATH)/bin/HostlistCompiler
+          $HOSTLISTCOMPILER_PATH -i ziyongrulerZ1 -o ziyongrulerZ
 
       - name: Commit and Push Changes
         run: |
