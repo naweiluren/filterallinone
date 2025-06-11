@@ -1,6 +1,30 @@
 !
 ! Title: Blocklist
-! Last modified: 2025-06-11T04:38:56.491Z
+! Last modified: 2025-06-11T04:54:50.417Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
+/([a-z0-9]{9,}[\.])?[a-z0-9]{9,}\.jddebug\.com/
+/([a-z0-9]{9,}[\.])?[a-z0-9]{9,}\.sngdia\.imtmp\.net/
+/.*.*.shouji.sogou.com/
+/.*.1rtb.com/
+/.*.a.market.xiaomi.com/
+/.*.ad.gameley.com/
+/.*.adintl.cn/
+/.*.adx.adwangmai.com/
+/.*.data.hicloud.com/
+/.*.log.aliyuncs.com/
+/.*.ubixioe.com/
+/.*.vlion.cn/
+/.*.yfanads.com/
+/.*.zhangyuyidong.cn/
+/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com/
+/[a-zA-Z0-9.-]*-ad.sm.cn/
+/[a-zA-Z0-9.-]*-ad.video.yximgs.com/
+/[a-zA-Z0-9.-]*-ad.wtzw.com/
+/[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com/
+/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com/
+/[a-zA-Z0-9.-]*-normal.zijieapi.com/
+/api/ad/adserver/
+/cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com/
+/pa.dajiahao*.top/
