@@ -18,10 +18,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Set up Go
-        uses: actions/setup-go@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          go-version: '1.20' # 或者选择你需要的 Go 版本    
+          node-version: 16  # 或更新的版本
 
       - name: Install dependencies
         run: |
@@ -51,18 +51,16 @@ jobs:
           sort -u ziyongrulerZ_temp > ziyongrulerZ1
           rm ziyongdnsZ_temp ziyongrulerZ_temp
 
-      - name: Install HostlistCompiler
-        run: go install github.com/AdguardTeam/HostlistCompiler@latest
+      - name: Install HostlistCompiler (npm)
+        run: npm install -g @adguard/hostlist-compiler
 
       - name: Optimize DNS rules
         run: |
-          HOSTLISTCOMPILER_PATH=$(go env GOPATH)/bin/HostlistCompiler
-          $HOSTLISTCOMPILER_PATH -i ziyongdnsZ1 -o ziyongdnsZ
+          hostlist-compiler -i ziyongdnsZ1 -o ziyongdnsZ
 
       - name: Optimize General rules
         run: |
-          HOSTLISTCOMPILER_PATH=$(go env GOPATH)/bin/HostlistCompiler
-          $HOSTLISTCOMPILER_PATH -i ziyongrulerZ1 -o ziyongrulerZ
+          hostlist-compiler -i ziyongrulerZ1 -o ziyongrulerZ
 
       - name: Commit and Push Changes
         run: |
