@@ -42,18 +42,20 @@ THIRD_PARTY_RULES = [
     "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
 ]
 
-def is_general_rule(rule):
+def is_dns_rule(rule):
   """
-  检查规则是否以域名字符后跟斜杠结尾的通用规则。
+  检查规则是否为只包含域名的 DNS 过滤规则。
 
   Args:
     rule: 要检查的规则字符串。
 
   Returns:
-    如果规则是通用规则，则返回 True，否则返回 False。
+    如果规则是有效的 DNS 规则，则返回 True，否则返回 False。
   """
-  pattern = r"[a-zA-Z0-9.-]+\/.*$" # 修改后的模式
-  return bool(re.search(pattern, rule))
+  # 更严格的域名匹配模式，包括对端口号的可选匹配
+  rule = rule.replace('@', '').replace('|', '').replace('*', '')
+  pattern = r"^[a-zA-Z0-9.-]+(:[0-9]+)?\^?$"
+  return bool(re.match(pattern, rule))
 
 def download_rules(urls, dns_filename, general_filename):
     dns_rules = []
@@ -66,11 +68,12 @@ def download_rules(urls, dns_filename, general_filename):
             rules = response.text.splitlines()
 
             for rule in rules:
-                if is_general_rule(rule):
-                    general_rules.append(rule)
+                rule = rule.replace('$important', '')
+                if is_dns_rule(rule):
+                    dns_rules.append(rule)
                     #print(f"Identified general rule: {rule}")
                 else:
-                    dns_rules.append(rule)
+                    general_rules.append(rule)
                     #print(f"Identified DNS rule: {rule}")
 
         except requests.exceptions.RequestException as e:

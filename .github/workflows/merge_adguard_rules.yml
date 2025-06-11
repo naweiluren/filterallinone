@@ -60,7 +60,8 @@ jobs:
 
       - name: Optimize General rules
         run: |
-          hostlist-compiler -i ziyongrulerZ1 -o ziyongrulerZ
+      #    hostlist-compiler -i ziyongrulerZ1 -o ziyongrulerZ
+          cp ziyongrulerZ1 ziyongrulerZ
 
       - name: Commit and Push Changes
         run: |
