@@ -43,8 +43,8 @@ jobs:
           cat ziyongdnsZ > ziyongdnsZ_temp
           cat ziyongrulerZ > ziyongrulerZ_temp
           #AdguardDNS_temp
-          cat AdguardDNS_temp >> ziyongdnsZ_temp
-          cat AdguardRuler_temp >> ziyongrulerZ_temp
+          cat AdguardDNSRuler >> ziyongdnsZ_temp
+          cat AdguardRuler >> ziyongrulerZ_temp
 
           # 清理重复并保存
           sort -u ziyongdnsZ_temp > ziyongdnsZ1
