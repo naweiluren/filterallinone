@@ -54,7 +54,7 @@ def is_dns_rule(rule):
   """
   # 更严格的域名匹配模式，包括对端口号的可选匹配
   rule = rule.replace('@', '').replace('|', '').replace('*', '')
-  pattern = r"^[a-zA-Z0-9.-]+(:[0-9]+)?\^?$"
+  pattern = r"^(?!-)[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(:[0-9]+)?\^?$"
   return bool(re.match(pattern, rule))
 
 def download_rules(urls, dns_filename, general_filename):
