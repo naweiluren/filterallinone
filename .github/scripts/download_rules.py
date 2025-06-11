@@ -1,5 +1,6 @@
 import requests
 import argparse
+import re
 
 OFFICIAL_RULES = [
     "https://filters.adtidy.org/android/filters/2_optimized.txt",
@@ -41,20 +42,43 @@ THIRD_PARTY_RULES = [
     "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
 ]
 
-def download_rules(urls, filename):
-    all_rules = []
+# 匹配以 || 或 ||| 开头，后跟域名，最后是可选的斜杠的规则
+DOMAIN_SLASH_PATTERN = re.compile(r"^(?:\|\|\|?)([\w\d*.-]+)/?$")
+
+def is_general_rule(rule):
+    """
+    判断规则是否是普通规则。
+    如果包含路径，则认为是普通规则。
+    """
+    return not bool(DOMAIN_SLASH_PATTERN.match(rule))
+
+def download_rules(urls, dns_filename, general_filename):
+    dns_rules = []
+    general_rules = []
+
     for url in urls:
         try:
             response = requests.get(url, timeout=10)
-            response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
+            response.raise_for_status()
             rules = response.text.splitlines()
-            all_rules.extend(rules)
-            print(f"Downloaded {url}")
+
+            for rule in rules:
+                if is_general_rule(rule):
+                    general_rules.append(rule)
+                    print(f"Identified general rule: {rule}")
+                else:
+                    dns_rules.append(rule)
+                    print(f"Identified DNS rule: {rule}")
+
         except requests.exceptions.RequestException as e:
             print(f"Error downloading {url}: {e}")
 
-    with open(filename, 'w', encoding='utf-8') as f:
-        for rule in all_rules:
+    with open(dns_filename, 'w', encoding='utf-8') as f:
+        for rule in dns_rules:
+            f.write(rule + '\n')
+
+    with open(general_filename, 'w', encoding='utf-8') as f:
+        for rule in general_rules:
             f.write(rule + '\n')
 
 if __name__ == "__main__":
@@ -63,8 +87,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.type == 'official':
-        download_rules(OFFICIAL_RULES, 'AdguardDNS_temp')
-        download_rules(OFFICIAL_RULES, 'AdguardRuler_temp')
+      download_rules(OFFICIAL_RULES, 'AdguardDNSRuler', 'AdguardRuler')
     elif args.type == 'third_party':
-        download_rules(THIRD_PARTY_RULES, 'ziyongdnsZ')
-        download_rules(THIRD_PARTY_RULES, 'ziyongrulerZ')
+      download_rules(THIRD_PARTY_RULES, 'ziyongdnsZ', 'ziyongrulerZ')
