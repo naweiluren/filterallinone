@@ -42,15 +42,18 @@ THIRD_PARTY_RULES = [
     # "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
 ]
 
-# 匹配以 || 或 ||| 开头，后跟域名，最后是可选的斜杠的规则
-DOMAIN_SLASH_PATTERN = re.compile(r"^(?:\|\|\|?)([\w\d*.-]+)/?$")
-
 def is_general_rule(rule):
-    """
-    判断规则是否是普通规则。
-    如果包含路径，则认为是普通规则。
-    """
-    return not bool(DOMAIN_SLASH_PATTERN.match(rule))
+  """
+  检查规则是否以域名字符后跟斜杠结尾的通用规则。
+
+  Args:
+    rule: 要检查的规则字符串。
+
+  Returns:
+    如果规则是通用规则，则返回 True，否则返回 False。
+  """
+  pattern = r"[a-zA-Z0-9.-]+\/.*$" # 修改后的模式
+  return bool(re.search(pattern, rule))
 
 def download_rules(urls, dns_filename, general_filename):
     dns_rules = []
