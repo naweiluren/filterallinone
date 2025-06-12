@@ -2,7 +2,7 @@ name: Merge AdGuard Rules
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   merge_rules:
