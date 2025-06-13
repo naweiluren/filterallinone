@@ -1,6 +1,7 @@
 name: Merge AdGuard Rules
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
@@ -27,6 +28,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
           pip install requests
+          pip install pytz
 
       - name: Download Official Rules
         run: |
@@ -61,10 +63,14 @@ jobs:
         run: |
           cp ziyongrulerZ1 ziyongrulerZ
 
+      - name: Generate README
+        run: |
+          python .github/scripts/generate_readme.py
+
       - name: Commit and Push Changes
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add ziyongdnsZ ziyongrulerZ ziyongrulerZ1 ziyongdnsZ1
+          git add README.md ziyongdnsZ ziyongrulerZ ziyongrulerZ1 ziyongdnsZ1
           git commit -m "Updated AdGuard rules" || echo "No changes to commit"
           git push origin HEAD:main
