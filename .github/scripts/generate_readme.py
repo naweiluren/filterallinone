@@ -1,6 +1,6 @@
 import os
 import datetime
-import pyt
+import pytz
 
 def generate_readme(dns_file="ziyongdnsZ", ruler_file="ziyongrulerZ", readme_file="README.md"):
     """
