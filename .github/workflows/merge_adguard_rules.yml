@@ -3,7 +3,9 @@ name: Merge AdGuard Rules
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'
+    # - cron: '0 */12 * * *'
+    # 每天 UTC 22:00 执行，相当于北京时间次日 06:00
+    - cron: '0 22 * * *'
 
 jobs:
   merge_rules:
