@@ -81,20 +81,14 @@ def check_domain_availability(domain):
         # 域名不存在
         return False
     except dns.resolver.NoAnswer:
-        # 域名存在但没有A记录（可能只有MX或NS记录），仍然认为是可解析的
-        # 这里为了简化，我们认为没有A记录就不算“可用”，可以根据实际需求调整
-        try:
-             resolver.query(domain, 'AAAA') # 尝试查询AAAA记录
-             return True
-        except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer, dns.resolver.Timeout, dns.exception.LifetimeTimeout):
-             return False
+        return False
     except (dns.resolver.Timeout):
         # 查询超时
         print(f"  Warning: DNS query timed out for {domain}, retrying...")
         try: # 尝试第二次
             resolver.query(domain, 'A')
             return True
-        except (dns.resolver.Timeout, dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
+        except Exception as e:
             return False
     except Exception as e:
         # 其他错误
