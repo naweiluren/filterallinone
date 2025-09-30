@@ -2,6 +2,7 @@ import re
 import dns.resolver
 import pandas as pd
 from datetime import datetime, timedelta
+import concurrent.futures # 导入 concurrent.futures 模块
 import os
 
 # --- 配置 ---
@@ -110,6 +111,69 @@ def save_records(df, record_file):
     """保存检测记录"""
     df.to_csv(record_file, index=False)
 
+
+# --- 新的函数：用于线程池执行的包装器 ---
+def process_domain_entry(domain, records_df, current_time):
+    """
+    处理单个域名的逻辑，以便在线程池中运行。
+    返回一个字典，包含该域名的最新处理结果。
+    """
+    historical_record = records_df[records_df['域名'] == domain].copy() 
+
+    last_check_time = None
+    last_result = None
+    check_count = 0
+
+    if not historical_record.empty:
+        last_check_time = historical_record['检测时间'].iloc[0]
+        last_result = historical_record['检测结果'].iloc[0]
+        check_count = historical_record['检测次数'].iloc[0]
+
+    domain_available = None
+
+    # 逻辑 1: 可用且半年内
+    if last_result == '可用' and last_check_time and \
+       (current_time - last_check_time).days <= AVAILABLE_SKIP_THRESHOLD_DAYS:
+        
+        return {
+            '域名': domain,
+            '检测时间': last_check_time,
+            '检测次数': check_count,
+            '检测结果': '可用'
+        } 
+
+    # 逻辑 2: 如果域名检测为不可用时，且检测时间为7天内则直接返回不可用
+    # 如果超过7天，且检测次数大于等于4次，也返回不可用
+    elif last_result == '不可用' and last_check_time and \
+            ((current_time - last_check_time).days <= UNAVAILABLE_CHECK_THRESHOLD_DAYS or \
+            (check_count >= 4 and (current_time - last_check_time).days <= AVAILABLE_SKIP_THRESHOLD_DAYS)):
+        
+        # print(f"  Skipping check for '{domain}': Previously unavailable within {UNAVAILABLE_CHECK_THRESHOLD_DAYS} days.")
+        return {
+            '域名': domain,
+            '检测时间': last_check_time,
+            '检测次数': check_count,
+            '检测结果': '不可用'
+        }
+
+    # 如果需要实际检测
+    domain_available = check_domain_availability(domain)
+    
+    if not domain_available: 
+        if last_result != '不可用':
+            check_count = 1 
+        else: 
+            check_count += 1
+    else: 
+        check_count = 0 
+    
+    return {
+        '域名': domain,
+        '检测时间': current_time,
+        '检测次数': check_count,
+        '检测结果': '可用' if domain_available else '不可用'
+    }    
+
 def main():
     print(f"--- Domain Availability Checker ---")
 
@@ -128,74 +192,30 @@ def main():
     # 存储需要从规则文件中删除的域名（纯域名形式）
     domains_to_delete_from_rules = set() 
 
-    for domain in domains_to_check:
-        print(f"Processing domain: {domain}")
-        # 从历史记录中找到当前域名
-        # .copy() 是为了避免 SettingWithCopyWarning
-        historical_record = records_df[records_df['域名'] == domain].copy() 
 
-        last_check_time = None
-        last_result = None
-        check_count = 0
-
-        if not historical_record.empty:
-            last_check_time = historical_record['检测时间'].iloc[0]
-            last_result = historical_record['检测结果'].iloc[0]
-            check_count = historical_record['检测次数'].iloc[0]
-            print(f"  Found historical record: Last check at {last_check_time}, Result: {last_result}, Count: {check_count}")
-
-        domain_available = None # 初始化为 None
-        perform_actual_check = True # 是否需要进行实际的DNS查询
-
-        # 逻辑 1: 如果域名检测结果为可用，且检测时间为半年内则不用检测直接通过。
-        if last_result == '可用' and last_check_time and \
-           (current_time - last_check_time).days <= AVAILABLE_SKIP_THRESHOLD_DAYS:
-            
-            domain_available = True # 标记为可用
-            perform_actual_check = False # 不需要实际检测
-            print(f"  Skipping check for '{domain}': Previously available within {AVAILABLE_SKIP_THRESHOLD_DAYS} days.")
-
-        # 逻辑 2: 如果域名检测为不可用时，且检测时间为7天内则直接返回不可用
-        elif last_result == '不可用' and last_check_time and \
-             ((current_time - last_check_time).days <= UNAVAILABLE_CHECK_THRESHOLD_DAYS or \
-             (check_count >= 4 and (current_time - last_check_time).days <= AVAILABLE_SKIP_THRESHOLD_DAYS)):
-            
-            domain_available = False # 标记为不可用
-            perform_actual_check = False # 不需要实际检测
-            domains_to_delete_from_rules.add(domain)
-            print(f"  Skipping check for '{domain}': Previously unavailable within {UNAVAILABLE_CHECK_THRESHOLD_DAYS} days.")
-            # 此时不需要增加检测次数，因为没有真正检测
-
-        # 如果需要实际检测
-        if perform_actual_check:
-            print(f"  Performing actual DNS check for {domain}...")
-            domain_available = check_domain_availability(domain)
-            check_count += 1
-            print(f"  Actual Check Result: {'可用' if domain_available else '不可用'}")
-            
-            # 如果实际检测后是不可用，且之前也是不可用，则重置检测次数
-            # “如果仍然不通则检测次数加1” 这个逻辑只在“旧记录不可用且超过7天，然后去检测，发现仍然不可用”时触发。
-            # 如果是第一次检测，或者以前是可用现在发现不可用，直接设为1。
-            if not domain_available:
-                if last_result != '不可用' or not last_check_time or \
-                   (current_time - last_check_time).days > UNAVAILABLE_CHECK_THRESHOLD_DAYS:
-                    check_count = 1 # 重新开始计数不可用次数
-                else: # 之前不可用，在7天外检测，现在仍然不可用
-                    check_count += 1
-            else: # 如果现在检测发现是可用，则这次检测是可用的，清零连续不可用次数
-                check_count = 0 
-                
+    with concurrent.futures.ThreadPoolExecutor(max_workers=500) as executor:
+        # 提交所有域名任务
+        # executor.map() 按照提交的顺序返回结果，但执行是并行的
+        futures = {executor.submit(process_domain_entry, domain, records_df, current_time): domain 
+                   for domain in domains_to_check}
+        
+        # 实时打印进度和收集结果
+        for i, future in enumerate(concurrent.futures.as_completed(futures)):
+            result = future.result()
             updated_records.append({
-                '域名': domain,
-                '检测时间': current_time,
-                '检测次数': check_count,
-                '检测结果': '可用' if domain_available else '不可用'
+                '域名': result['域名'],
+                '检测时间': result['检测时间'],
+                '检测次数': result['检测次数'],
+                '检测结果': result['检测结果']
             })
+            if result['检测结果'] == '不可用':
+                domains_to_delete_from_rules.add(result['域名'])
+            
+            # 打印进度，例如每处理100个域名打印一次
+            if (i + 1) % 100 == 0 or (i + 1) == len(domains_to_check):
+                print(f"  Processed {i + 1}/{len(domains_to_check)} domains...")
 
-            # --- 新增删除逻辑判断 ---
-            if not domain_available:
-                print(f"  Domain '{domain}' is marked for deletion (unavailable {check_count} times).")
-                domains_to_delete_from_rules.add(domain)
+    print("All parallel DNS checks finished.")
 
     # 3. 更新并保存记录
     # 将新的检测结果合并到旧的记录中
