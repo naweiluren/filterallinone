@@ -85,7 +85,7 @@ def check_domain_availability(domain):
         return False
     except (dns.resolver.Timeout):
         # 查询超时
-        print(f"  Warning: DNS query timed out for {domain}, retrying...")
+        # print(f"  Warning: DNS query timed out for {domain}, retrying...")
         try: # 尝试第二次
             resolver.query(domain, 'A')
             return True
