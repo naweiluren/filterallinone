@@ -65,7 +65,7 @@ jobs:
       #     hostlist-compiler -i ziyongdnsZ1 -o ziyongdns
       - name: Remove useless domain
         run: |
-          python .github/scripts/remove_useless_domain.py ziyongdnsZ1 -o ziyongdns
+          python .github/scripts/remove_useless_domain.py ziyongdnsZ1 ziyongdns
 
       - name: Optimize General rules
         run: |
