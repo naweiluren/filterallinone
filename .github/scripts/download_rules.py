@@ -92,6 +92,8 @@ def download_rules(urls, dns_filename, general_filename):
                 
                 rule = rule.replace('$important', '')
                 if is_dns_rule(rule):
+                    if not rule.endswith('^'):
+                        rule += '^'
                     dns_rules.append(rule)
                     #print(f"Identified general rule: {rule}")
                 else:
