@@ -15019,6 +15019,7 @@ $websocket,domain=wap.yushuwu.cloud
 4gamers.com.tw##video[src^="https://img.4gamers.com.tw/ads-media/"]
 4gamers.com.tw#?#.aroma-news-detail-side > div[media-width]:has(div.aols-wrapper > a[target="_blank"][rel="noopener"])
 4gamers.com.tw#?#.container-fluid > .vue-portal-target:has(> div[style] > .aroma-news-detail-iframe-ads)
+4gtv.tv##+js(no-fetch-if, pagead2.googlesyndication.com)
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 4hu.tv##.couplet-left
 4hu.tv##.wrap > div.mod > div.row > dl:has(> dt > a[target="_blank"]:not([href^="/html/"]) > img)
@@ -16603,7 +16604,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||ikea.cn^*/img/ads/
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk|xuite.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
@@ -19843,6 +19843,7 @@ douyin.com##.playerContainer #video-info-wrap > .video-info-detail:has(a[href="h
 douyin.com##xg-controls + div[class]:has(> div[style] > a[href^="https://gad.netease.com/gad/"])
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(å¹¿å))
 douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/åå|åå®¶|éæ¬¾|åºéº/))
+douyin.com#?#.discover-video-card-item:-abp-has(>div>div>span:-abp-contains(å¹¿å))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###sign_p_1
 douyu.com##.BargainingKit
@@ -31954,6 +31955,7 @@ zzzyk.com###Tinfo
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=hoy.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=news.now.com,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=4gtv.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imayitxt.com/*.js^$replace=/adPlace//i
 ||imayitxt.com/sink/js/TouchSlide.js^
@@ -32836,6 +32838,7 @@ zzzyk.com###Tinfo
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
 ||lawtv.com.cn/skin/stop.swf
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
+||layuion.com/get/showcase/
 ||lbx777.*/css/300.js
 ||lbx777.*/css/lbxgg02
 ||lcok.net/2019/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
