@@ -129,6 +129,9 @@ def download_whitelist_rules(urls, filename):
 
                 if not rule.startswith('@'):
                   rule = '@@|' + rule
+
+                if not rule.endswith('^'):
+                    rule += '^'
                 whitelist_rules.append(rule)
                 
         except requests.exceptions.RequestException as e:
