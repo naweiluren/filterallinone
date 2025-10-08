@@ -21180,7 +21180,6 @@ hlgnet.com,sina.com##.tad
 hltv.org$$div[class="epics cn-a"]
 hltv.org$$div[id="_bottom"]
 hltv.org$$div[id="_middle"]
-hmanga.world##+js(no-fetch-if, method:HEAD)
 hmitalk.com##div[class*="-pubadban "]
 hmitalk.com##div[data-adid]
 hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-panel__header__title:contains(èµå©å))
@@ -27431,6 +27430,7 @@ zzzyk.com###Tinfo
 ||28kys.com/92kviptupian/
 ||28kys.com/cpstupian/
 ||28lu.net^*/0
+||28lu.net^*/1
 ||29spp.com/js/tj.js
 ||2btu.com/gg.jpg
 ||2cat.or.tl/pmccounter.swf
@@ -36429,6 +36429,7 @@ zzzyk.com###Tinfo
 ||wobuka2.com/js/
 ||wodemeitu.com^$third-party
 ||wodeshucheng.com^*/0
+||wodeshucheng.com^*/1
 ||wofan.net^$third-party
 ||wokao.co/qq/qq.js
 ||wondershare.es/jslibs/track.js
