@@ -15914,7 +15914,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@/adverts/*$domain=onlychild.cn
 @@/adview_$domain=52xkdy.com|fydy8.com
 @@/adview_*_ads_300x250.js$domain=itbaoku.cn
-@@/adview_*_ads_300x250.js$domain=yaociyuan.bid
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=bigpixel.cn|fffmo.com|itbaoku.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zaixianjisuan.com|zgpingshu.com
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
@@ -18211,6 +18210,8 @@ applefans.today#$#.tipi-overlay { display: none !important; }
 applefans.today#$#body { overflow: auto !important; }
 applnn.cc##+js(noeval-if, encodeURIComponent)
 apprcn.com##a[href*=".lizhi."]
+appscross.com##.master-slider-parent
+appscross.com##.w-ad
 aqiboke.cn##.ws_images
 aqiboke.cn$$script[tag-content="flowexchange"]
 aqiboke.cn$$script[tag-content="wowslider-container1"]
@@ -26333,10 +26334,6 @@ yangluo.cn###frameVw7574
 yangmaodang.org##.autumn-single-bottom-a-d
 yangmaodang.org##.autumn-single-top-a-d
 yantuchina.com##div[style="width:618px;height:150px;margin: 0 auto; display:block;"]
-yaociyuan.bid##+js(set-constant, killads, true)
-yaociyuan.bid##.board a[target="_blank"] > img
-yaociyuan.bid##.content a[target="_blank"] > img
-yaociyuan.bid##.w-ad
 yaolan.com###AD
 yaolan.com###j_focus_img
 yaolan.com###maryAd
