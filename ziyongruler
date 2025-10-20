@@ -23398,6 +23398,7 @@ mnw.cn##.mnw_685
 mnw.cn##.mnw_960
 mnw.cn##.mnw_top_ads
 mo.fish##.list-item-content-ad
+mob.iyingdi.com##.down-button
 mob.iyingdi.com##.down-load-app-container
 mob.iyingdi.com##.reply
 mobanwang.com##.box960x90
@@ -23781,9 +23782,9 @@ news.qq.com##.download-banner-wrap
 news.qq.com##.download-content
 news.qq.com##.godown.qqcom_fb-item
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
+news.qq.com##div[id="download-btn-wrapid"]
 news.qq.com#?##content-right div[class]:has(> h1:contains(ç­é¨åºç¨))
 news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
-news.qq.com#?#div[id="download-btn-wrapid"]
 news.sohu.com##.god-first
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(å¹¿å)
 news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
@@ -37710,6 +37711,7 @@ zzzyk.com###Tinfo
 ||xxdy8.cn/template/Datll/aaaa/
 ||xxffo.com^*_slett.php
 ||xxhh.com/xh.js
+||xxir.com/static/images/ad.
 ||xxooos.com/mm/
 ||xxx55tp.com^*.gif
 ||xyfdcw.com.cn/userfiles/flash/

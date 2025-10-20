@@ -36754,6 +36754,7 @@ zzzyk.com###Tinfo
 ||xxdy8.cn/template/Datll/aaaa/
 ||xxffo.com^*_slett.php
 ||xxhh.com/xh.js
+||xxir.com/static/images/ad.
 ||xxooos.com/mm/
 ||xxx55tp.com^*.gif
 ||xyfdcw.com.cn/userfiles/flash/
@@ -37586,8 +37587,8 @@ new.qq.com#?#div.operation:contains(手机看)
 news.qq.com##.download-content
 news.qq.com##.download-banner-wrap
 news.qq.com##.godown.qqcom_fb-item
+news.qq.com##div[id="download-btn-wrapid"]
 news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
-news.qq.com#?#div[id="download-btn-wrapid"]
 oneplusbbs.com###bbsRegisterGuide
 oneplusbbs.com##li[style*="position: relative; border: 0px;"]
 pingwest.com##.down-app
@@ -37916,7 +37917,6 @@ iqiyi.com##.m-iqyGuide-layer
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.m-user > div > div
 iqiyi.com##.m-iqylink-diversion
-iqiyi.com##.m-iqyGuide-layer
 iqiyi.com##div[class="iqiyi-h5-empty header_app"]
 iqiyi.com##section[class^="ChannelHomeBanner"]
 iqiyi.com##div[class="vue-portal-target "]
@@ -37926,6 +37926,7 @@ iqiyi.com##div[class^=style_appDownload]
 iqiyi.com##div[class^=styles_openApp]
 iqiyi.com##div[class^=style_toApp]
 iyingdi.com##.downLoadApp
+mob.iyingdi.com##.down-button
 mob.iyingdi.com##.down-load-app-container
 mob.iyingdi.com##.reply
 m.jd.com###pannelSeat
@@ -37944,7 +37945,6 @@ jianshu.com##.header-download
 jianshu.com###recommended-notes
 jianshu.com##.index_call-app-btn
 jianshu.com##div.download-app-guidance:last-child > div.guidance-content > div.guidance-wrap-conetnt > div.guidance-wrap-item:nth-child(2)
-jianshu.com###recommended-notes
 jianshu.com##.note-graceful-button
 jianshu.com##div[class^=baidu-app-download]
 jianshu.com##.note__flow__download
