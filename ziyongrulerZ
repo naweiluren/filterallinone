@@ -23498,6 +23498,8 @@ nowscore.com###toperBaskText
 nowscore.com###toperText
 nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 noy1.top##+js(no-xhr-if, /api/ads)
+npmmirror.com##.ant-alert:has(a[target="_blank"])
+npmmirror.com##a[target="_blank"] > img:is([alt="ad"], [alt="vps-ad"])
 ntm.gov.tw#@#.ad-left
 ntp.msn.cn##recommended-sites
 ntpcb.com##img[width="1195"]
@@ -24761,6 +24763,7 @@ stockstar.com##.ss-ad-icon2
 stoneip.info###text-57
 storm.mg###dablewidget_KoEeAWoB
 storm.mg###floating_btns_wrapper
+storm.mg##.adGeneral
 storm.mg##.storm_magic_placeholder
 storm.mg##div[data-addom="storm_ad_wrapper"]
 storm.mg#@#.btn_fb
@@ -27961,6 +27964,7 @@ zzzyk.com###Tinfo
 ||7scs.com/Public/img/list-
 ||7t955.com^$third-party
 ||7wkw.com^$popup
+||7wzx9.com/tbad.
 ||7x7n.com/static/image/888.jpg
 ||7x7n.com/static/pic/*.jpg
 ||7xdown.com/bz/
@@ -37402,6 +37406,8 @@ zzzyk.com###Tinfo
 ~ix8.la##div[class^="ADTOPLB_"]
 ~jxedu.com###haoetv
 ~lechinois.com##.container > .ads
+~leynwell.top##body > [style^="display: block; width: 100%; height:"]:empty
+~leynwell.top##body > [style^="display: block; width: 100%; height:"]:empty ~ :not(div)[style^="display: block; z-index: "]
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
