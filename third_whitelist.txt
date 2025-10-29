@@ -982,6 +982,14 @@
 @@|v6-nimg.ws.126.net^
 @@|map.qq.com^
 @@|down.anticheatexpert.com^
+@@|novelquickapp.com^
+@@|filters.adtidy.org^
+@@|is.snssdk.com.queniukw.com^
+@@|vod-settings.bytedanceapi.com^
+@@|lf3-reading.fqnovelstatic.com^
+@@|lf3-reading.fqnovelpic.com^
+@@|api-access.pangolin-sdk-toutiao1.com^
+@@|ichannel.snssdk.com^
 @@|api.ipify.org^
 @@|ipify.org^
 @@|s1-11599.kwimgs.com^
