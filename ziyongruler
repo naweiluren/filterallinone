@@ -12350,6 +12350,7 @@ $websocket,domain=wap.yushuwu.cloud
 /token?referer=
 /tomorrowfocusAd.
 /tongji.js
+/tongji/ad.js
 /too_ad/*
 /toolkitads.
 /tools/ad.
@@ -23604,7 +23605,7 @@ mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
 mydrivers.com###dangbei_down
 mydrivers.com###div_newsyjgg
 mydrivers.com###track-link
-mydrivers.com##.HSsRgYjfNn
+mydrivers.com##._bg
 mydrivers.com##.adds
 mydrivers.com##.baidu_box
 mydrivers.com##.baidu_left
@@ -28330,6 +28331,7 @@ zzzyk.com###Tinfo
 ||3808010.com/code$third-party
 ||380tv.com/upload/*-ad-
 ||38ksw.com^*/0
+||38ksw.com^*/1
 ||38ra.com^$third-party
 ||39.100.192.200/zzz0.png
 ||39.net/PictureLib/A/f76/20170814/org_1428963.gif
@@ -30108,7 +30110,6 @@ zzzyk.com###Tinfo
 ||biqivge.cc/js/d
 ||biqivge.cc/js/p
 ||biqqc.com/templates/frontend/frontend-default/js/scoll_bg.js
-||biquge.ac/tongji/ad.
 ||biquge.so/static/xbiquge/m.js^
 ||biquge.tw/api/
 ||biquge22.com^$third-party
@@ -32899,6 +32900,7 @@ zzzyk.com###Tinfo
 ||img.hexun.com*/wszj/js.js
 ||img.ifeng.com/tres/html/
 ||img.imyyds.com/adimges^
+||img.jin10.com/event/*_
 ||img.lancdn.com/*-top-banner-
 ||img.lancdn.com/landian/2025/08/110020B.png
 ||img.mbalib.com/common/servicesPicture/prom.js
