@@ -15561,7 +15561,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@/unadblock/adjs_$domain=hepan.com
 @@/urchin.js$domain=on.cc
 @@/wp-content/*/social_$domain=servercat.me
-@@/wp-content/themes/radio-hub/static/js/*.js$domain=tingfm.com
+@@/wp-content/themes/radio-hub/*.js$domain=tingfm.com
 @@/zhenbuka/statics/js/guanggao.js$xmlhttprequest,domain=api.l32c.cn|api.nixingle.com
 @@://*/gg/$domain=gg.go.kr
 @@=mm_12852562_1778064_$domain=alimarket.tmall.com|www.taobao.com|www.tmall.com
@@ -18501,6 +18501,8 @@ baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 baomidou.com##+js(set-constant, _AdBlockInit, noopFunc)
 baomidou.com##.sidebar-content > astro-island
 baozimh.one,yazhouse8.com##.banners
+baozimh.org##a[href*="g-mh.com"]
+baozimh.org#?#.relative:-abp-has(>.bg-red-500)
 baozimh.org,bzmh.org,g-mh.org,godamh.com,manhuafree.com,sportsplanetmag.com##.adshow
 barryblogs.com##.ad-single-top
 barryblogs.com##div[style="margin-bottom: 10px; width: 300px; height: 300px;"]
@@ -24491,6 +24493,7 @@ qq.com##.home-download-btn
 qq.com##.in-top-ad
 qq.com##.jpBanner
 qq.com##.m[pbflag="guess"]
+qq.com##.maillist_ad_bar
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 qq.com##.masker_1111
