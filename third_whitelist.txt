@@ -982,6 +982,9 @@
 @@|v6-nimg.ws.126.net^
 @@|map.qq.com^
 @@|down.anticheatexpert.com^
+@@|net-cloud.xhey.top^
+@@|stat2.openinstall.io^
+@@|game.weixin.qq.com^
 @@|i.meituan.com^
 @@|novelquickapp.com^
 @@|filters.adtidy.org^
