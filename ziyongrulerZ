@@ -23799,6 +23799,7 @@ pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
+ping0.cc##.adeles
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
 pinggu.org##.indextop-r
@@ -26538,6 +26539,7 @@ youku.com##.sub-slides-wrap .swiper-wrapper > .swiper-slide:has(> a[data-intacts
 youku.com##.sub-slides-wrap .swiper-wrapper > .swiper-slide:has(> a[target-url])
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
 youku.com##.yk-AD-tong
+youku.com##div[class^="bullet_wrap_"]:has(> div[class^="yk_card_"] > a[data-spm^="yk_ad_"])
 youku.com##div[data-adext]
 youku.com##div[name="m_pos"] > #FullPromotion
 youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
@@ -33246,6 +33248,7 @@ zzzyk.com###Tinfo
 ||m.shushu8.com/js/tongji.js?
 ||m.tb.cn^$domain=youku.com
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
+||m.uishuku.com/*.js$~script
 ||m.xigua110.com/js/
 ||m.xsbiquge.la/js/detail.js
 ||m.ybstwl.com/public/tpl/m2/js/
@@ -34240,6 +34243,7 @@ zzzyk.com###Tinfo
 ||piimg.com^$domain=acgura.us|kisssub.org|lsjsoso.me|ref.so
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
+||ping0.cc/static/images/ad/
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
 ||pingtas.qq.com/pingd?dm=wxapps.click&url=ad_stat_data^
