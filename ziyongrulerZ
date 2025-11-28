@@ -18306,6 +18306,7 @@ awaker.cn###jiji + div[style="padding: 20px"]
 awaker.cn##.good-price
 awaliwa.com##.bottomAdsBox
 awei791129.pixnet.net###pilot > div.pixnet-happix-pilot__launcher-bubble:last-child > div.pixnet-happix-pilot__launcher-bubble__wrapper:first-child > img.pixnet-happix-pilot__launcher-bubble__btn_happix_ufo:last-child
+axiang.cc###achang-related-adsense
 axiang.cc###photo-sliders + .widget_text
 axios-http.cn###right-sider
 axios-js.com###lagou-vip
@@ -36525,6 +36526,7 @@ zzzyk.com###Tinfo
 ||woolik.com^*^tracker^
 ||woozooo.com/img/*.js
 ||wordpress.com/geo/
+||workers.dev^$domain=axiang.cc
 ||worldcup1.com^$domain=avcao.cc
 ||worldssl.net/reporting.js$third-party
 ||wowfan.net/static/js/index.
