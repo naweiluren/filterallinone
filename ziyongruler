@@ -21633,6 +21633,7 @@ hujiang.com##.login-modal-mask
 hujiang.com##.login-modal-wrapper
 hujiang.com##.qrcode
 hung-ya.com##.AdBottom
+huoqwk.com,wap.biqugewx.info##+js(no-setTimeout-if, addEventListener("touchstart")
 hupu.com###HCFull
 hupu.com###shihuo1111
 hupu.com###threadLeftAd
@@ -24097,6 +24098,7 @@ news.qq.com###focus-bar
 news.qq.com##.download-banner-wrap
 news.qq.com##.download-content
 news.qq.com##.godown.qqcom_fb-item
+news.qq.com##.slider-list.swiper-horizontal.swiper-initialized.swiper
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
 news.qq.com##div[id="download-btn-wrapid"]
 news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
@@ -24781,6 +24783,7 @@ qq.com###ay-tips-close + h2
 qq.com###barrageBase
 qq.com###bottom-sponsor
 qq.com###comic_ad
+qq.com###download-btn-wrapid
 qq.com###emailLogin > .hd-slider
 qq.com###focus_jordon
 qq.com###fr_ad
@@ -38141,7 +38144,6 @@ zzzyk.com###Tinfo
 ||xbiqugela.com/js/basisc.
 ||xbqg6.com/*.php
 ||xcar.com.cn/dsp/ad
-||xchina.$domain=crxs.me
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/
 ||xchina.*/plugins/sweetAlert2/

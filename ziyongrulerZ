@@ -21564,6 +21564,7 @@ huayumen.com$$script[id="ny_xiangguan"]
 huayumen.com$$script[id="ny_yc"]
 hubei.gov.cn#@##ad-side
 hung-ya.com##.AdBottom
+huoqwk.com,wap.biqugewx.info##+js(no-setTimeout-if, addEventListener("touchstart")
 hupu.com###HCFull
 hupu.com###shihuo1111
 hupu.com###threadLeftAd
@@ -37213,7 +37214,6 @@ zzzyk.com###Tinfo
 ||xbiqugela.com/js/basisc.
 ||xbqg6.com/*.php
 ||xcar.com.cn/dsp/ad
-||xchina.$domain=crxs.me
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/
 ||xchina.*/plugins/sweetAlert2/
@@ -38274,6 +38274,7 @@ new.qq.com#?#div.operation:contains(手机看)
 news.qq.com##.download-content
 news.qq.com##.download-banner-wrap
 news.qq.com##.godown.qqcom_fb-item
+news.qq.com##.slider-list.swiper-horizontal.swiper-initialized.swiper
 news.qq.com##div[id="download-btn-wrapid"]
 news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
 oneplusbbs.com###bbsRegisterGuide
@@ -38289,6 +38290,7 @@ pingwest.com##a[href="https://events.pingwest.com/tic-wh-2021"]
 qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
 qq.com##.home-download-btn
+qq.com###download-btn-wrapid
 qq.com##+js(json-prune, ad)
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
