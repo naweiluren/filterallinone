@@ -2835,7 +2835,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\.[a-z]dinmi[a-z].top\//$script,3p
 /\.[a-z]domsi[a-z].top\//$script,3p
 /\.[a-z]dyurli[a-z].top\//$script,3p
-/\.[a-z]weisi[a-z].top\//$script,3p
 /\.accountant\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\.bid\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\.click\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
@@ -15393,6 +15392,7 @@ $websocket,domain=wap.yushuwu.cloud
 6fzd.com,fzd3.com###comiis_app_block_74
 6fzd.com,fzd3.com###comiis_app_block_84
 6fzd.com,fzd3.com###tuiguang
+6park.com##.main_news_list > a[href^="http"]:not([href*="6park.com"])
 6park.com##a[href*=".php?key="]
 6park.com##a[href*="/link.php?key="]
 6park.com##a[href*="bpropolis."]
@@ -15405,6 +15405,7 @@ $websocket,domain=wap.yushuwu.cloud
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div.adv-6park)
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div[id*="ScriptRoot"])
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> table[width="100%"] > tbody > tr > td > div.adv-6park)
+6park.com##td[style="line-height:30px;text-align:center;color:red;background-color:white;"]
 6park.com,club.6parkbbs.com##.adv-6park
 6parknews.com###d_list > ul > li:has(a[href^="http"]:not([href*="6parknews"]))
 6parknews.com##.ad-view
@@ -16745,6 +16746,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||hk.on.cc^$generichide
 @@||hk01.com^*/ga_trace.js
 @@||hk01.com^*/scripts/ga.js
+@@||hkcards.com^$generichide
 @@||hkjc.com/bannerad/
 @@||hm.baidu.com/hm.js$domain=rjno1.com
 @@||hm.baidu.com/hm.js?$script,domain=rjno1.com
@@ -21436,9 +21438,8 @@ hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[class^="placeholder-top-"]:style(min-height: 0 !important;)
 hk01.com##div[data-id="lazyload-placeholder"]
 hkcards.com###ad-slot-01
-hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
 hkcards.com##.row > .col-12 > #ad-slot
-hkcards.com#@##ad-slot
+hkcards.com##div[style*="min-height"]:has(.my-1)
 hkdm688.com##.bb01
 hkepc.com###headBanner
 hkepc.com##.headBanner
@@ -28361,7 +28362,6 @@ zzzyk.com###Tinfo
 ||75.125.41.29:8080/
 ||7540.com^$third-party
 ||76.73.85.179/js/v1.js
-||7676.com^$3p
 ||7676.com^$third-party
 ||76fengyun.com/70070.gif
 ||76fengyun.com/jsa/
@@ -29099,8 +29099,6 @@ zzzyk.com###Tinfo
 ||anvato.com/anvatoloader.swf?analytics=
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
-||ao1*kas.top/$script,3p
-||aoao1*iis.top/$script,3p
 ||aol.com/ping?
 ||aolanswers.com/wtrack/
 ||aolcdn.com/js/mg2.js
@@ -37363,7 +37361,6 @@ zzzyk.com###Tinfo
 ||xkd*.com/layer/layer.js
 ||xkhouse.com/display/displaygg/
 ||xkjxgt.com^$third-party
-||xkp.cc^$3p
 ||xkyn.com/imgs/js/al.js
 ||xkyn.com/imgs/js/xx.js
 ||xkzzz.com/zb_users/plugin/Jsctrl_vip/script.php^
