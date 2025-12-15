@@ -16272,6 +16272,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ditiezu.com^*.php$subdocument
 @@||dizhi99.com^$generichide
 @@||dl.r3sub.com^$generichide
+@@||dl.zuimeitianqi.com^$document
 @@||dlkoo.cc/down/*/*.htm$popup
 @@||dlkoo.cc/down/Copydown1
 @@||dlkoo.cc/down/Copyright.js
