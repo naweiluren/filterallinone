@@ -22511,6 +22511,7 @@ kaitao.cn##a[href*="/a.php?id="]
 kaixindy.com###pege_ad1
 kaka12345.cc###main
 kalvin.cn##.fell_advertisement_box
+kanav.ad##div[class^="img-ad"]
 kankan.com##div[id^="cm"].banner
 kanqiuba.net##a[href*="bet"]
 kaolashuwu.com###ZF_tanchuang_p_right
@@ -33193,6 +33194,7 @@ zzzyk.com###Tinfo
 ||kan98.com/c.html
 ||kan98.com/images/*.gif
 ||kan98.com/statics/js/k2017/kan98.js
+||kanav.ad/template/*/images/qf/
 ||kanbook.net/static/js_union/
 ||kancloud.cn/ad/
 ||kangaroobro.com/bn.js
