@@ -526,7 +526,7 @@ $$script[tag-content="adsbygoogle"]
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 $csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
-$csp=script-src 'self' * 'unsafe-inline',domain=feiguaks.com|iqmxs.cc|jinpai123.net|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|jakxs.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=erciyan.com|feiguaks.com|iqmxs.cc|jinpai123.net|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|jakxs.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=zduxs.com|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
@@ -21115,6 +21115,7 @@ gzmama.com###zone_index_fullcolumn_2
 gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 gzmama.com###zone_top_fullcolumn
+h-ciyuan.com##.responsive-figure
 h5.1234567.com.cn$$div[id="wapBanner"]
 h5.17k.com##body:style(overflow: visible!important;)
 h5.17k.com##html:style(overflow: visible!important;)
@@ -25798,6 +25799,7 @@ vidhub2.top,vidhub3.top,vidhub4.cc,vidhub.me,vidhub.tv##div[class][style*="posit
 vidhub3.top,vidhub4.cc##div[style^="position:"]:has(> img[onclick^="window.open"])
 vikacg.com##+js(no-window-open-if, !/external)
 vikacg.com,papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
+vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > .grid > a[href^="http"]:not([href*="vikacg."])
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > a[href^="http"]:not([href*="vikacg."])
 vikilife.com###sidebar-tab[style^="height:"]
 vip.diaoyu18.com##.container > a[target="_blank"]
@@ -25907,6 +25909,8 @@ wapi.cn$$script[tag-content="member_left"]
 wapwenku.baidu.com,wk.baidu.com###bottomFixed
 wapwenku.baidu.com,wk.baidu.com##.tout
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
+warcraftlogs.com##span[id^="ap-"]
+warcraftlogs.com##span[id^="apsf-"]
 warting.com##.hz2
 wasu.cn##.info_ads
 wasu.cn##div[class^="play_ads"]
@@ -26701,6 +26705,7 @@ xzji.com##.speed
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
+yahoo.com###StreamMidCenter2Ad-0
 yahoo.com###crazyAD
 yahoo.com###hp-ad-left
 yahoo.com###hp-ad-right
@@ -26708,12 +26713,10 @@ yahoo.com###module-tabadktw
 yahoo.com###module-tabadsw
 yahoo.com###my-adsHPSPON
 yahoo.com###my-adsMBAR
-yahoo.com###sda-mid-right-2-iframe
-yahoo.com###sda-mid-right-iframe
-yahoo.com###sda-top-right-iframe
 yahoo.com###ysm-umu
 yahoo.com##.GeminiPortalStreamAd_handleViewport
 yahoo.com##.ad-tl2b
+yahoo.com##.bg-card-bg-1[class*="300px"]
 yahoo.com##.geminiAd
 yahoo.com##.js-list-ad-noview
 yahoo.com##.js-stream-content > div > div > div > h3 > a[href^="https://hk.promotions."]
@@ -26736,9 +26739,11 @@ yahoo.com##div[id*="-Stream-ad-"]
 yahoo.com##div[id^="-ad-"]
 yahoo.com##div[id^="ads-"]
 yahoo.com##div[id^="gemini-ad-"]
+yahoo.com##div[id^="sda-"][id$="-iframe"]
 yahoo.com##li[class^="gemini-ad-"]
 yahoo.com##li[id^="ad-"][class^="Pos"]
 yahoo.com##li[id^="gemini-ad-"]
+yahoo.com##li[id^="taboola-twhk-"]
 yahoo.com##section[class^="Pos"][data-id="big-gemini"]
 yahoo.com#?#.js-stream-content:-abp-has(div:-abp-contains(é
 èæå°))
