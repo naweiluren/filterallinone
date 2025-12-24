@@ -27275,12 +27275,14 @@ zodns.cn$$div[class="container copy-right"]
 zol.com##.youxuan-shop
 zol.com.cn###Article_Top_Banner
 zol.com.cn###J_alpha_link
+zol.com.cn###downBoxGaosu
 zol.com.cn###downBoxGaosu + a
 zol.com.cn###downloadTop
 zol.com.cn###downloader_main1
 zol.com.cn###nowDown
 zol.com.cn###official_url
 zol.com.cn###relatedProduct
+zol.com.cn###sideDoubao
 zol.com.cn##.down-append-mol__pic
 zol.com.cn##.down-dxlt
 zol.com.cn##.down-gaosu
@@ -38209,8 +38211,8 @@ dangdang.com##.little
 dangdang.com###fix_erweima
 dangdang.com##.foot_tip_ad
 dangdang.com##.side_bar_code
-chat.deepseek.com#?#div:has(> .ds-icon + span)
-chat.deepseek.com#?#div:has(> .ds-icon[style*="width: 28px"][style*="height: 28px"])
+chat.deepseek.com#?#.ds-dropdown-menu-option:has-text(下载手机应用)
+chat.deepseek.com#?#button:has(span:contains(下载应用))
 discord.com##div[class*=notice]
 douban.com##.lnk-doubanapp
 fm.douban.com##.left
