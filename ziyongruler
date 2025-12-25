@@ -25571,7 +25571,10 @@ sosg.net###postlist + .cc
 sosimhk.com##.a-modal:style(display: none !important;)
 sosimhk.com##.modal-backdrop:style(display: none !important;)
 sosimhk.com##body:style(overflow: auto !important; padding-right: 0 !important;)
+sou-yun.cn###adsPanel:style(display: none !important;)
 sou-yun.cn###ads_index_2
+sou-yun.cn##body:style(overflow: auto !important;)
+sou-yun.cn#@##adsPanel
 sou.com###ad_wrapper_cpc_conversation-comment-right
 soufun.com##.danmu_inbox
 soundofhope.org###itb_ads_catfish
