@@ -18495,6 +18495,7 @@ axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net##body > article[style]
+axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net###bottomSearch ~ div:not([id]) > .mySwiper
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##+js(no-setTimeout-if, /getCookie|checkCK|checkCookie|checkC00kie|checkCoookie|checkCookiiiie|document\.cookie|buttonClose|exptime/)
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##+js(set-constant, infoList, [])
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##body > [id]:has(> ul[class] > li > img.icon + a[href])
@@ -20716,6 +20717,7 @@ flyblog.cc,maxfoodfun.com##.article-body > div[style]:has(> div[style] > div[id]
 flyzy2005.com##.baidu_ad
 flyzy2005.com##.widget_kratos_ad
 fmprc.gov.cn,mfa.gov.cn#@#.adbox2
+fnc.ebc.net.tw##.dfp_ad
 followme.cn##.fm-banner-social
 followme.cn##.money-box
 foodmate.net##.ad5
@@ -25615,6 +25617,7 @@ u7u9.com###pangu_leftBottom
 u7u9.com##.xw-right-ad
 u7u9.com^$third-party
 uaa.com##.place_holder_box
+uaa.com##.popup_dialog_box
 uaa.com##.shortcut_box
 uc.cn##.slider__sdk__wrapper
 uc.cn##div[data-ad_url^="http"]
@@ -36594,6 +36597,7 @@ zzzyk.com###Tinfo
 ||u627.com/dis/tj.js
 ||u7u9.com^$3p
 ||u88.cn^$third-party
+||uaa.com/js/dxj.
 ||ubcpm.com^$third-party
 ||uc.cn/collect?
 ||uc.cn/s/uae/g/0s/ua.js
@@ -38232,6 +38236,7 @@ chat.deepseek.com#?#button:has(span:contains(下载应用))
 discord.com##div[class*=notice]
 douban.com##.lnk-doubanapp
 fm.douban.com##.left
+doubao.com##.group\/download
 douyu.com##div[class^="code_box"]
 douyu.com##div[class*=LiveRoomDianzan]
 douyu.com##.ClientJump
@@ -38422,7 +38427,6 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 tmall.com##div[style*="z-index: 99999; display: block;"]
 tmall.com###J_smartloader
-tongyi.aliyun.com#?#ul > li:nth-child(2):not(:contains("效率"))
 userstyles.org###top_android_button
 userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
@@ -38742,6 +38746,7 @@ opposhop.cn##.oc-hairline--bottom.welcome-wrapper
 pingwest.com##.options
 pingwest.com##.bd.item
 pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:contains(打开APP)
+www.qianwen.com##.bg-weaken
 m.qidian.com###footerApp
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
 sina.cn##.appOnly_card
@@ -38846,7 +38851,6 @@ m.thepaper.cn###recommend
 m.thepaper.cn###newDetailHotRecommend
 m.thepaper.cn##a[data-statclick="downloadApp"]
 m.thepaper.cn##div[class^="index_footer_banner"]
-tongyi.aliyun.com##div[class^="downloadWrap"]
 m.toutiao.com##.open
 m.toutiao.com##.m-bottom-container
 m.toutiao.com##.m-index-tag
