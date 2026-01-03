@@ -16880,6 +16880,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||qcheng.cc/x/statics/js/guanggao.
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
+@@||qhres2.com^$document
 @@||qianpanso.cn/other/*.js$domain=cilimao.co|cilimao.one
 @@||qiantucdn.com/static/images/adsbygoogle.js
 @@||qimingdao.com/Index/loadmore?tag_id=
@@ -16930,6 +16931,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||s.click.tmall.com^$document
 @@||s.ip-cdn.com/img/ag.jpg
 @@||s.ip-cdn.com/img/logo.gif
+@@||s.ssl.qhres2.com^$document
 @@||s.tgfcer.com^$generichide
 @@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 @@||saveu*.zijieapi.com^$document

@@ -324,6 +324,8 @@
 @@||analytics.95516.com^$document
 @@||p3-tt.byteimg.com^$document
 @@||dl.zuimeitianqi.com^$document
+@@||s.ssl.qhres2.com^$document
+@@||qhres2.com^$document
 ||t7z.cupid.iqiyi.com^$app=com.qiyi.video
 ||api2.coolapk.com/v6/feed/replyList$replace=/"entities":/"10007":/
 ||api2.coolapk.com/v6/feed/detail$replace=/"detailSponsorCard":/"10007":/
