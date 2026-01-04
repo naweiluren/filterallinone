@@ -1552,6 +1552,7 @@ $websocket,domain=wap.yushuwu.cloud
 .top/herebyad
 .top/s.php?id=$script,third-party
 .top/upload/ad.js
+.top:9956/$3p
 .top^*-960x80-*.gif
 .topad.
 .tor*/js/jquery.bpopup.
@@ -15285,7 +15286,9 @@ $websocket,domain=wap.yushuwu.cloud
 :701/Pus/pus.js
 :701/gd_xueersi/$popup
 :7701/load.cw.js
+:800*/d/*?t=$script,3p,xhr
 :800*/d/*n=$script,3p
+:800*/d/*n=$script,3p,xhr
 :800*/d/*t=$script,3p
 :800*/sc/*n=$script,3p
 :8080/ad/
@@ -16877,6 +16880,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pv.sohu.com^$document
 @@||py.qlogo.cn^$document
 @@||py2.qlogo.cn^$document
+@@||qappcenterv6.3g.qq.com^$document
 @@||qcheng.cc/x/statics/js/guanggao.
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
@@ -17052,6 +17056,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tajs.qq.com/stats?$~3p
 @@||tajs.qq.com/stats?$~third-party
 @@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
+@@||tangram.e.qq.com^$document,app=com.tencent.mobileqq
 @@||tangsanbooks.com^$generichide
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||tanx.com/ex?i=$script,domain=dlkoo.cc
@@ -17064,6 +17069,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tbskip.taobao.com^$document
 @@||tbsone.imtt.qq.com^$document
 @@||tce.alicdn.com^$domain=alimama.com
+@@||tdid.m.qq.com^$document
 @@||technews.tw/www/delivery/$badfilter
 @@||technews.tw^$generichide,badfilter
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
