@@ -982,7 +982,6 @@
 @@|v6-nimg.ws.126.net^
 @@|map.qq.com^
 @@|down.anticheatexpert.com^
-@@|v.douyin.com^
 @@|webapi.amap.com^
 @@|m.toutiao.com^
 @@|net-cloud.xhey.top^
