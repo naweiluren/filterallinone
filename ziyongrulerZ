@@ -7131,7 +7131,7 @@ $websocket,domain=wap.yushuwu.cloud
 /circads.
 /citycounter.
 /cjadsprite.
-/cjs/cprt.js$domain=dailygh.com|xgcartoon.com
+/cjs/cprt.js$domain=dailygh.com|xgcartoon.com|twxgct.com
 /cjtracker2.
 /ck.php?nids
 /ckaudience/*
@@ -15752,6 +15752,9 @@ $websocket,domain=wap.yushuwu.cloud
 :8888/zhu/wap_
 :8891/v*/$script,3p
 :8898/ads_
+:900*/d/*n=$script,3p
+:900*/d/*t=$script,3p
+:900*/sc/*n=$script,3p
 :9001/code/
 :9875/vh2/
 :9875/vj2/
@@ -25625,6 +25628,7 @@ twkan.com##.txtcenter
 two.game.tw#@##ad_02
 twpkinfo.com###div_close_cf
 twword.com##.gadBlock
+twxgct.com,xgcartoon.com,dailygh.com###video-top-ad
 txahz.com###archy_ad2
 txtbook.com.cn##.ledu-advWrap
 txzqw.me##.tac[style="margin-bottom:5px;"]
@@ -26555,7 +26559,6 @@ xgan.cn##.bottom_fixed
 xgan.cn##.container center > a[target="_blank"] > img
 xgan.cn##a[href^="https://www.jspp9.xyz"]
 xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
-xgcartoon.com,dailygh.com###video-top-ad
 xgeshu.com,boqushu.com##div[style="display:block;width:100%;height:100px;overflow:hidden;"]
 xgrb.cn##.d_2016_ggw
 xgw4.com###app-card-list
