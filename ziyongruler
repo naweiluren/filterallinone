@@ -9221,6 +9221,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/wahha/*
 /js/wlfloat.js
 /js/xb.js$script,third-party
+/js/xiaxuanfu.js
 /js/youmuffpu.js
 /js/yueyupp_3.js
 /js/yzgg.js
@@ -14166,34 +14167,17 @@ $websocket,domain=wap.yushuwu.cloud
 18comic.*##.modal-body > ul.pop-list
 18comic.*##.top-a2db
 18comic.*#@#img[style*="300px"]
-18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.container > div[style^="margin-bottom:"]:has(> div.col-lg-3 > div[data-exo])
 18comic.org,18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
-18comic.org,18comic.vip##.div_sticky2
-18comic.org,18comic.vip##.modal-backdrop
 18comic.org,18comic.vip##.modal-body > ul.pop-list
-18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##.tab-content + .row:has(> div[class] > div[class] > .group-notice)
 18comic.org,18comic.vip##.top-a2db
-18comic.org,18comic.vip##:has(>ins+div)
-18comic.org,18comic.vip##:has(>ins+script)
-18comic.org,18comic.vip##:has(>ins+style)
-18comic.org,18comic.vip##:has(>script+ins)
-18comic.org,18comic.vip##:not(body):has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip##a[herf*="//"]:not([href*="comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
 18comic.org,18comic.vip##body .bot-per
 18comic.org,18comic.vip##div[class="row"][style="display: flex;flex-wrap: wrap;"]
-18comic.org,18comic.vip##div[data-group]:has(>.group-notice)
-18comic.org,18comic.vip##div[data-group][data-width="300"]
 18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
 18comic.org,18comic.vip##div[data-group^="skyscraper_"]
 18comic.org,18comic.vip##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip##div[data-height="90"][data-width="728"]
-18comic.org,18comic.vip##style + div[style="cursor: pointer; position: relative;"]
 18comic.org,18comic.vip#@#img[style*="300px"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
@@ -14202,6 +14186,23 @@ $websocket,domain=wap.yushuwu.cloud
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
+18comic.org,18comic.vip,jm18c-jjd.club###guide-modal
+18comic.org,18comic.vip,jm18c-jjd.club##.div_sticky2
+18comic.org,18comic.vip,jm18c-jjd.club##.modal-backdrop
+18comic.org,18comic.vip,jm18c-jjd.club##.row[style="display: flex;flex-wrap: wrap;"]
+18comic.org,18comic.vip,jm18c-jjd.club##:has(>ins+div)
+18comic.org,18comic.vip,jm18c-jjd.club##:has(>ins+script)
+18comic.org,18comic.vip,jm18c-jjd.club##:has(>ins+style)
+18comic.org,18comic.vip,jm18c-jjd.club##:has(>script+ins)
+18comic.org,18comic.vip,jm18c-jjd.club##:not(body):has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jm18c-jjd.club##a[herf*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > [style*="back"]
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > div[style]
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img + [style]
+18comic.org,18comic.vip,jm18c-jjd.club##div[data-group]:has(>.group-notice)
+18comic.org,18comic.vip,jm18c-jjd.club##div[data-group][data-width="300"]
+18comic.org,18comic.vip,jm18c-jjd.club##style + div[style="cursor: pointer; position: relative;"]
 18comic.org,18comic.vip,jmcomic1.win#@#:has(> script[src*=".realsrv.com"])
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
@@ -18424,7 +18425,7 @@ axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net##body > article[style]
-axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net###bottomSearch ~ div:not([id]) > .mySwiper
+axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net###bottomSearch ~ div:not([id]) > div[class$="Swiper"]
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##+js(no-setTimeout-if, /getCookie|checkCK|checkCookie|checkC00kie|checkCoookie|checkCookiiiie|document\.cookie|buttonClose|exptime/)
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##+js(set-constant, infoList, [])
 axutongxue.onrender.com,axutongxue.space,axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##body > [id]:has(> ul[class] > li > img.icon + a[href])
@@ -38389,7 +38390,6 @@ zzzyk.com###Tinfo
 ||xn--wxtr9fwyxk9c.*^
 ||xn--xhq9mt12cf5v.*^
 ||xn01.xyz^$third-party
-||xncwxw.me/js/xiaxuanfu.
 ||xnewsletter.de/count/counter.php?
 ||xng02.com/api.php?mod=ad&
 ||xnklgas.cn/common/getBannerList
