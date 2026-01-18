@@ -26245,6 +26245,7 @@ wps.cn##.school
 ws://*/api/wss/GetNotReadCount$3p
 wss://*.*.top/$3p
 wss://*.com:29*/$3p
+wss://*.com:800*/$3p
 wss://*.top/|
 wss://*.xyz:*?e=$3p
 wss://*.xyz:*?x=$3p
