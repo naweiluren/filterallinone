@@ -19878,6 +19878,8 @@ dacota.tw##section[class*="widget_text"] > .widget-wrap > .textwidget > div[clas
 dacota.tw#?#section[class*="widget_text"] > .widget-wrap > .textwidget > div[class^="Zi_ad"]:upward(3)
 dahe.cn###adArea1
 dahe.cn###adsg
+dailijichang.com,qv2ray.org##.elementor-popup-modal
+dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 daily.zhihu.com##.Daily
 daily.zhihu.com##.active
 dailygh.com###video_fade
@@ -25619,6 +25621,7 @@ soundofhope.org##div[class*="AD_"]
 south-plus.net##a[onclick*="'ad'"]
 soyunpan.com###qblad
 soyunpan.com##.jmwb
+spandayoga.ch#@#.elementor-popup-modal
 spbo1.com##td[width="100%"][height="18"][bgcolor="#ffffff"][align="center"][colspan="13"]
 speedpan.com###float-window
 speedtest.cn##.aP-box
@@ -27171,6 +27174,8 @@ wxsck.com###content > div[style^="clear:"]
 wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
 wxsck.com##.footer:style(margin-top: 0px !important;)
 wybg666.com##.container div[id$="ad"] > a[target="_blank"]:only-child > img
+wzzy.cc###notice-overlay
+wzzy.cc##.xgplayer-error
 x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
 x3cn.com###portal_block_12045
@@ -29631,6 +29636,8 @@ zzzyk.com###Tinfo
 ||affiliate.coral.co.uk/processing^
 ||affirm.com/api/v2/cookie_sent
 ||affirm.com/api/v2/session/touch_track
+||affxc.com/topbanner-
+||affxc.com^*-792-180.
 ||affyun.com/wp-content/uploads/*-ad.
 ||affyun.com/wp-content/uploads/*/ad-
 ||affyun.com/wp-content/uploads/*/affffff.png
