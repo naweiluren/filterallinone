@@ -685,7 +685,6 @@ $websocket,domain=wap.yushuwu.cloud
 -your-ad-here-
 -your-ads-here.
 ./js/tbxw.js
-.012*sop.xyz/$script,xhr,3p
 .189.gd^*.html?p=$popup,3p
 .189.gd^*.html?p=$popup,third-party
 .194007.com/4058.gif
@@ -790,7 +789,6 @@ $websocket,domain=wap.yushuwu.cloud
 .analytics.min.
 .apk0*oo.xyz/$script,xhr,3p
 .ar/ads/
-.as0*kkp.xyz/$script,xhr,3p
 .ashx?AdID=
 .ashx?ad=
 .asis?Log=
@@ -859,19 +857,14 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/2.gif?
 .cn/?ss=$script,third-party
 .cn/Ao390sW2.js
-.cn/Hl390cN2.js$script,3p
-.cn/Qi390eC2.js$script,3p
-.cn/TA390hz2.js$script,3p
 .cn/a.gif?
 .cn/ads/
 .cn/b.gif?
-.cn/by389.js$script,3p
 .cn/cS389.js
 .cn/center/adj?ak=
 .cn/gdt/*.jpg/0
 .cn/gg/$script,3p
 .cn/gg/*?x=$script,third-party
-.cn/hL389.js$script,3p
 .cn/jc.gif?
 .cn/js/ads/
 .cn/o.js
@@ -884,7 +877,6 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/sl.gif?
-.cn/uL389.js$script,3p
 .cn/v/*.xmtl?$3p
 .cn/v/*.xmtl?$third-party
 .cn/vs.php?id=$script,third-party
@@ -925,7 +917,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/Public/js/duileft.js
 .com/Public/js/duiright.js
 .com/Runtime/js/psCreat.js
-.com/TA390hz2.js$script,3p
 .com/_.gif?
 .com/__kl.gif?
 .com/a.gif?
@@ -979,7 +970,6 @@ $websocket,domain=wap.yushuwu.cloud
 .com/bds/banner/?api_version=
 .com/blank.aspx?
 .com/bt/s.png?b=
-.com/by389.js$script,3p
 .com/c.gif?
 .com/clk?
 .com/cm?ci=
@@ -1182,11 +1172,7 @@ $websocket,domain=wap.yushuwu.cloud
 .fm/ads/
 .fr/ads.
 .fr/z.gif?
-.fun/In390hG2.js
-.fun/TA390hz2.js
 .fun/ad/
-.fun/by389.js
-.fun/nd389.js
 .fun/scripts/my_33.js
 .ga/*.wasm
 .ga/ads.
@@ -1476,11 +1462,7 @@ $websocket,domain=wap.yushuwu.cloud
 .prebid.js
 .propellerads.$domain=~propellerads.com
 .pt/n.gif?
-.pw/In390hG2.js
-.pw/TA390hz2.js
 .pw/ads/
-.pw/by389.js
-.pw/nd389.js
 .qidian.com/bgImg.
 .qidian.com/bgOps.
 .qidian.com/floatOpBox.
@@ -1616,7 +1598,6 @@ $websocket,domain=wap.yushuwu.cloud
 .wxs.qq.com/*/snsvideodownload
 .xinhuanetAD.
 .xn--fiqs8s:7385/
-.xxaks*sspao.xyz/$script,xhr,3p
 .xxx/ads/
 .xyz/*.sdk?$script,3p
 .xyz/*=$object,3p
@@ -2360,10 +2341,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,3p
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,3p
 /\.[a-z]+[\:\/]/$~image,3p,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
-/\.[a-z]cinma[a-z].top\//$script,3p
-/\.[a-z]dinma[a-z].top\//$script,3p
-/\.[a-z]dinmi[a-z].top\//$script,3p
-/\.[a-z]domsi[a-z].top\//$script,3p
 /\.accountant\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\.bid\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\.click\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
@@ -17939,7 +17916,6 @@ _rightad.
 _rightad1.
 _rightad_
 _rightmn_ads.
-_rony.js$script,3p
 _rpc/log?
 _sa_track/
 _saveUserEventLog.
@@ -18020,8 +17996,6 @@ _video_ads_
 _videoad.
 _vmind.qqvideo.tc.qq.com^
 _vodaaffi_
-_vwisbjs?
-_vwnrsbjs?
 _web-advert.
 _web_ad_
 _web_stat.js
@@ -19880,7 +19854,6 @@ dacota.tw##section[class*="widget_text"] > .widget-wrap > .textwidget > div[clas
 dacota.tw#?#section[class*="widget_text"] > .widget-wrap > .textwidget > div[class^="Zi_ad"]:upward(3)
 dahe.cn###adArea1
 dahe.cn###adsg
-dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 daily.zhihu.com##.Daily
 daily.zhihu.com##.active
 dailygh.com###video_fade
@@ -22639,6 +22612,8 @@ jmcomic1.me##+js(remove-node-text, #text, ä¸­éå»£å)
 jmcomic1.me##.container > div.row:has(ins[data-width="300"])
 jmcomic1.me##div[style^="max-height: 600px"]
 jmnews.com.cn##div[id^="couplet_"]
+jmsnode.com,linuxsss.com,linuxssr.com,linuxtrojan.com,linuxv2ray.com,linuxxray.com,tizidajian.com,dailijichang.com,qv2ray.org##.elementor-popup-modal
+jmsnode.com,linuxsss.com,linuxssr.com,linuxtrojan.com,linuxv2ray.com,linuxxray.com,tizidajian.com,dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 jmw.com.cn##.head_1b
 jmw.com.cn##.head_3
 jmw.com.cn##.leftCouplet
@@ -22784,6 +22759,8 @@ kfkn8s.65h79.cn##.wnys_fiexd_box
 kfkn8s.65h79.cn##.wnys_img > .banner_tit
 kfkn8s.65h79.cn##.wnys_tit_other
 kikinote.net##.pc_ad
+kimi.com##.download-app-btn
+kimi.com##.download-button
 kimi.moonshot.cn##.app-download
 kissjojo99.com###text-16
 kissjojo99.com##.g-adv
@@ -23074,7 +23051,6 @@ linuxboy.net##.artitle > [href] > [src]
 linuxboy.net##div.art_confoot > [href] > [src]
 linuxde.net##.ad360x500
 linuxidc.com##.linux801
-linuxsss.com,linuxssr.com,linuxtrojan.com,linuxv2ray.com,linuxxray.com,tizidajian.com,dailijichang.com,qv2ray.org##.elementor-popup-modal
 litv.tv##.ad_impression
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
@@ -26114,6 +26090,7 @@ tsubasa.im##+js(set-constant, compare_post, noopFunc)
 tsubasa.im#?#.alert-adblock
 tt1069.com#@##ad-slot
 tt1069.com#@##adbrite
+tt1069.com#@#.adzone
 tt776.com##iframe[src="/app/ad.html"]
 ttrar.com##.new_xzq
 ttshow.tw##div[id^="ad_article_"]
@@ -27371,6 +27348,7 @@ xizi.com###pageRight-loop
 xizi.com##.baner1
 xizi.com##.gg500
 xizi.com##.pageAD1
+xjwiki.github.io#@##pub_head
 xkb.com.cn##.xwAd
 xkeba.com###diy90
 xkyn.com##+js(set-constant, conone_lmg, noopFunc)
@@ -36551,6 +36529,7 @@ zzzyk.com###Tinfo
 ||shuakongbao.com/resource/images/banner/
 ||shufazidian.com/float/yanue.
 ||shufazidian.com/image/728x90ty.jpg
+||shuhaoxs.com/public/
 ||shui5.cn^*/ima/gg
 ||shuidixs.com/1.
 ||shuihulu.com^$third-party
