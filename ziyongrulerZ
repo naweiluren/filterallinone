@@ -38446,7 +38446,7 @@ userstyles.org##.android_button_banner
 vip.com##.sidebarcom-qrcode
 vip.com##.wp-phone
 vivo.com.cn##.vp-vivo-app
-v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
+v.qq.com##.client-loading-cta__btn
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com###pc_client > .quick_link
 cuttlefish.baidu.com##.link-pc-client
