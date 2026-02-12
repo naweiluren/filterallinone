@@ -17040,6 +17040,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||szhr.com^$generichide
 @@||szhr.com^*ad
 @@||t.uc.cn^$document
+@@||t7z.cupid.iqiyi.com/mixer$domain=iqiyi.com
 @@||t7z.cupid.iqiyi.com^$document
 @@||tajs.qq.com/stats?$~3p
 @@||tajs.qq.com/stats?$~third-party
@@ -27460,6 +27461,7 @@ yahoo.com##.js-list-ad-noview
 yahoo.com##.js-stream-content > div > div > div > h3 > a[href^="https://hk.promotions."]
 yahoo.com##.js-stream-content:has(a[href*=".promotions."])
 yahoo.com##.js-stream-content:has(div:contains(é
+yahoo.com##.pointer-events-none > .sticky:has(> div[id^="sda-"][id$="-iframe"]:only-child)
 yahoo.com##.stream-item:has(>div>div>div>span:contains(å³æ¥ç±æ))
 yahoo.com##.stream-responsive-ad-item
 yahoo.com##.sys_dict_native_ads
@@ -27468,6 +27470,7 @@ yahoo.com##.wafer-beacon:has(a[data-ylk*=":ad;"])
 yahoo.com##.wafer-beacon[data-wf-beacons]
 yahoo.com##a[class^="Pos"][href*=".promotions."]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
+yahoo.com##article .atoms > .bg-toast-background:has(> div[id^="sda-"][id$="-iframe"])
 yahoo.com##div[class*="bg-Ad"]
 yahoo.com##div[data-ad-feedback-beacon]
 yahoo.com##div[data-content="å»£å"]:not(#sda-MAST-iframe)
@@ -30092,6 +30095,7 @@ zzzyk.com###Tinfo
 ||apic.91bixin.net/api/thirdadv/
 ||apic.91bixin.net/api/thirdadv^
 ||apic.in/mmd.gif
+||apiimg.com/haishui/
 ||apiimg.com/huaer/xiahe.
 ||apis.pchome.com.tw/js/idlead.js
 ||apisgame.iqiyi.com/pcwcenter/position/others/videoTopResource^
@@ -31506,7 +31510,6 @@ zzzyk.com###Tinfo
 ||cumulus-cloud.com/trackers/
 ||cupfox.app^$3p
 ||cupid.iqiyi.com/mixer?
-||cupid.iqiyi.com/mixer?$domain=www.iqiyi.com,badfilter
 ||cupid.iqiyi.com/show2?
 ||cupid.iqiyi.com/track
 ||custom.search.yahoo.co.jp/images/window/*.gif
