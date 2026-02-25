@@ -38819,6 +38819,17 @@ sina.cn##.j_sax sina_tj_banner
 sina.cn##.j_callST.ldy_art_bottom_button_box
 sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
 sina.cn##.qr_box
+finance.sina.cn##.pluse.animated
+finance.sina.cn##.wap-msg-bar
+finance.sina.cn##div[class^="s-"]
+finance.sina.cn#?#.flag_sf:upward(div):upward(div)
+finance.sina.cn#?#.snp-container:upward(div)
+cj.sina.cn##.module-footer
+cj.sina.cn##.module-hot.module-extend
+cj.sina.cn##.unfold-words
+cj.sina.cn##.u-article-video-title4
+cj.sina.cn##.wap-msg-bar
+cj.sina.cn##div[class^="u-article-video-title"]
 smzdm.com##.btn-open-app
 smzdm.com##.damo-footer-open-app__fixed-logo
 smzdm.com##.footer-banner
