@@ -41,7 +41,7 @@ THIRD_PARTY_RULES = [
     "https://anti-ad.net/adguard.txt",
     "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt",
     #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt",
-    #"https://raw.githubusercontent.com/user001235/112/main/white.txt",
+    "https://raw.githubusercontent.com/user001235/112/main/white.txt",
     #"https://file-git.trli.club/file-hosts/allow/Domains",
     #"https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
 ]
@@ -52,38 +52,58 @@ THIRD_PARTY_RULES = [
 
 WHITE_LIST_RULES = [
     #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt",
-    "https://raw.githubusercontent.com/user001235/112/main/white.txt",
-    "https://file-git.trli.club/file-hosts/allow/Domains",
-    "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
+    # "https://raw.githubusercontent.com/user001235/112/main/white.txt",
+    # "https://file-git.trli.club/file-hosts/allow/Domains",
+    # "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
 ]
 
 def is_dns_rule(rule):
-  """
-  检查规则是否为只包含域名的 DNS 过滤规则。
+    """
+    检查规则是否为只包含域名的 DNS 过滤规则。
 
-  Args:
-    rule: 要检查的规则字符串。
+    Args:
+      rule: 要检查的规则字符串。
 
-  Returns:
-    如果规则是有效的 DNS 规则，则返回 True，否则返回 False。
-  """
-  # 更严格的域名匹配模式，包括对端口号的可选匹配
-  rule = rule.replace('@', '').replace('|', '').replace('*', '')
-  pattern = r"^(?!-)[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(:[0-9]+)?\^?$"
-  return bool(re.match(pattern, rule))
+    Returns:
+      如果规则是有效的 DNS 规则，则返回 True，否则返回 False。
+    """
+    if "/" in rule or "." not in rule:
+        return False
+
+    #   print(f'start _ {rule}')
+
+    # 更严格的域名匹配模式，包括对端口号的可选匹配
+    rule = rule.replace('@', '').replace('|', '').replace('^', '').replace('$', '')
+    pattern = r'^([a-zA-Z0-9*][a-zA-Z0-9*-]*[a-zA-Z0-9*]\.)*[a-zA-Z0-9*][a-zA-Z0-9*-]*[a-zA-Z0-9*](\.a-zA-Z)?$'
+    result = bool(re.match(pattern, rule))
+    #   print(f'end _ {rule}')
+    return result
+
+
+proxies = {
+    "http": "http://127.0.0.1:10808",
+    "https": "http://127.0.0.1:10808", # Note: use 'http' scheme for the proxy URL in most cases
+}
+
 
 def download_rules(urls, dns_filename, general_filename):
     dns_rules = []
     general_rules = []
 
     for url in urls:
+        print(f'{url}')
         try:
-            response = requests.get(url, headers=headers, timeout=10)
+            # response = requests.get(url, proxies=proxies, headers=headers, timeout=5)
+            response = requests.get(url, headers=headers, timeout=5)
             response.raise_for_status()
             rules = response.text.splitlines()
-            # print(rules)
+            # print('1234')
+
+            # rules = ['||heartlessanthemantiquity.com^$all']
 
             for rule in rules:
+
+                # print(rule)
                 if rule.startswith('!') or rule.startswith('#'):
                   continue
 
@@ -92,9 +112,41 @@ def download_rules(urls, dns_filename, general_filename):
                 
                 rule = rule.replace('$important', '')
                 if is_dns_rule(rule):
-                    if not rule.endswith('^'):
+                    if not (rule.endswith('^') or rule.endswith('|')):
                         rule += '^'
-                    dns_rules.append(rule)
+                    if not (rule.startswith('@') or rule.startswith('|')):
+                        rule = '||' + rule                  
+
+                    if '$denyallow=' in rule:
+                        parts = rule.split('$denyallow=', 1)
+                        main_part = parts[0].strip()
+                        exception_part = parts[1].strip()
+
+                        # --- 提取主规则域名 ---
+                        main_domain = None
+                        if main_part.startswith('||') and main_part.endswith('^'):
+                            main_domain = main_part[2:-1]
+
+                        rules = []
+                        # 1. 保留主规则
+                        dns_rules.append(main_part)
+
+                        # --- 处理例外列表 ---
+                        exception_parts = re.split(r'[|,^]+', exception_part)
+                        
+                        for part in exception_parts:
+                            domain = part.strip()
+                            if not domain:
+                                continue
+
+                            if main_part.startswith('@@'):
+                                # 原放行 -> 例外拦截 (生成黑名单/拦截规则)
+                                dns_rules.append(f"||{domain}^")
+                            else:
+                                # 原拦截 -> 例外放行 (生成白名单/放行规则)
+                                dns_rules.append(f"@@||{domain}^")
+                    else:
+                        dns_rules.append(rule)
                     #print(f"Identified general rule: {rule}")
                 else:
                     general_rules.append(rule)

@@ -33,9 +33,9 @@ jobs:
           pip install pytz
           pip install dnspython3 pandas
 
-      - name: Remove Rules
-        run: |
-          rm ziyongdns ziyongdnsZ ziyongdnsZ1 ziyongruler ziyongrulerZ
+      # - name: Remove Rules
+      #   run: |
+      #     rm ziyongdnsZ ziyongdnsZ1 ziyongrulerZ
 
       - name: Download Official Rules
         run: |
@@ -44,10 +44,6 @@ jobs:
       - name: Download Third-Party Rules
         run: |
           python .github/scripts/download_rules.py --type third_party
-
-      - name: Download Third-Party Whitelist
-        run: |
-          python .github/scripts/download_rules.py --type whitelist
 
       - name: Install HostlistCompiler (npm)
         run: npm install -g @adguard/hostlist-compiler
@@ -70,6 +66,10 @@ jobs:
       - name: Optimize General rules
         run: |
           sort -u ziyongrulerZ > ziyongruler
+
+      - name: calssfiy ziyongruler
+        run: |
+          python .github/scripts/no_dns_classif.py --input ziyongruler --out-android android.txt --out-ios ios.txt --out-common common.txt
 
       - name: Generate README
         run: |
