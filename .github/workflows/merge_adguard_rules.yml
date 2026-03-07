@@ -69,7 +69,7 @@ jobs:
 
       - name: calssfiy ziyongruler
         run: |
-          python .github/scripts/no_dns_classif.py --input ziyongruler --out-android android.txt --out-ios ios.txt --out-common common.txt
+          python .github/scripts/no_dns_classify.py --input ziyongruler --out-android android.txt --out-ios ios.txt --out-common common.txt
 
       - name: Generate README
         run: |
