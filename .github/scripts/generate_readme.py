@@ -42,7 +42,7 @@ def generate_readme(dns_file="ziyongdns", ruler_file="ziyongruler", readme_file=
 dns增减检测机制, 有效域名每180天检测一次，无效域名每7天检测一次持续4次无效者180天再次检测
     """
 
-    with open(readme_file, 'w') as f:
+    with open(readme_file, 'w', encoding='utf-8') as f:
         f.write(readme_content)
 
     print(f"README file '{readme_file}' generated successfully.")
