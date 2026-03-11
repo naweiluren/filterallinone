@@ -2,12 +2,12 @@
 # filterallinone
 
 ```
-    æ›´æ–°æ—¶é—´: 2026-03-09 08:46:47 ï¼ˆåŒ—äº¬æ—¶é—´ï¼‰ 
+    ¸üÐÂÊ±¼ä: 2026-03-11 17:19:39 £¨±±¾©Ê±¼ä£© 
 
 ziyongdns: 144187 lines
-ziyongruler: 43848 lines
+ziyongruler: 21114 lines
 ```
 
-ä¸€ä¸ªgithubèƒ½ç”¨çš„è„šæœ¬æˆ–è€…å·¥ä½œæµ,ç”¨äºŽåˆå¹¶Adguardçš„è¿‡æ»¤è§„åˆ™,æ€è·¯å¦‚ä¸‹:åˆå¹¶è‡ªå®šä¹‰çš„Adguardå®˜æ–¹è§„åˆ™,å¹¶å°†å…¶å­˜å‚¨åœ¨AdguardDNSRulerå’ŒAdguardruler,åˆå¹¶åˆ—è¡¨è‡ªå®šä¹‰ç¬¬ä¸‰æ–¹è§„åˆ™,å¹¶å°†å…¶åˆå¹¶åœ¨ziyongdnsZå’ŒziyongrulerZ,å¦‚æžœAdguardDNSRulerå’ŒziyongdnsZä¸­æœ‰ç›¸åŒè§„åˆ™,åˆ™åˆ é™¤ziyongdnsZä¸­çš„ç›¸åŒè§„åˆ™,å¹¶å°†è§„åˆ™å­˜å‚¨åˆ°ziyongdnsZ1ä¸­,åŒç†å¤„ç†Adguardrulerå’ŒziyongrulerZçš„è§„åˆ™,äº•å­˜å‚¨åˆ°ziyongrulerZ1,æœ€åŽå¯¹ziyongdnsZ1å’ŒziyongrulerZ1è¿›è¡Œä¼˜åŒ–,æŸ¥çœ‹ziyongdnsZ1çš„è§„åˆ™ä¸­æ˜¯å¦æœ‰åŒ…å«å…³ç³»çš„è§„åˆ™,å¦‚æžœæœ‰,åˆ™åˆ é™¤è¢«åŒ…å«çš„è§„åˆ™,å¹¶å­˜å‚¨åˆ°ziyongdnsä¸­,åŒç†å¤„ç†ziyongrulerZ1,ç„¶åŽå¤„ç†åŽå­˜å‚¨åˆ°ziyongruler
-dnså¢žå‡æ£€æµ‹æœºåˆ¶, æœ‰æ•ˆåŸŸåæ¯180å¤©æ£€æµ‹ä¸€æ¬¡ï¼Œæ— æ•ˆåŸŸåæ¯7å¤©æ£€æµ‹ä¸€æ¬¡æŒç»­4æ¬¡æ— æ•ˆè€…180å¤©å†æ¬¡æ£€æµ‹
+Ò»¸ögithubÄÜÓÃµÄ½Å±¾»òÕß¹¤×÷Á÷,ÓÃÓÚºÏ²¢AdguardµÄ¹ýÂË¹æÔò,Ë¼Â·ÈçÏÂ:ºÏ²¢×Ô¶¨ÒåµÄAdguard¹Ù·½¹æÔò,²¢½«Æä´æ´¢ÔÚAdguardDNSRulerºÍAdguardruler,ºÏ²¢ÁÐ±í×Ô¶¨ÒåµÚÈý·½¹æÔò,²¢½«ÆäºÏ²¢ÔÚziyongdnsZºÍziyongrulerZ,Èç¹ûAdguardDNSRulerºÍziyongdnsZÖÐÓÐÏàÍ¬¹æÔò,ÔòÉ¾³ýziyongdnsZÖÐµÄÏàÍ¬¹æÔò,²¢½«¹æÔò´æ´¢µ½ziyongdnsZ1ÖÐ,Í¬Àí´¦ÀíAdguardrulerºÍziyongrulerZµÄ¹æÔò,¾®´æ´¢µ½ziyongrulerZ1,×îºó¶ÔziyongdnsZ1ºÍziyongrulerZ1½øÐÐÓÅ»¯,²é¿´ziyongdnsZ1µÄ¹æÔòÖÐÊÇ·ñÓÐ°üº¬¹ØÏµµÄ¹æÔò,Èç¹ûÓÐ,ÔòÉ¾³ý±»°üº¬µÄ¹æÔò,²¢´æ´¢µ½ziyongdnsÖÐ,Í¬Àí´¦ÀíziyongrulerZ1,È»ºó´¦Àíºó´æ´¢µ½ziyongruler
+dnsÔö¼õ¼ì²â»úÖÆ, ÓÐÐ§ÓòÃûÃ¿180Ìì¼ì²âÒ»´Î£¬ÎÞÐ§ÓòÃûÃ¿7Ìì¼ì²âÒ»´Î³ÖÐø4´ÎÎÞÐ§Õß180ÌìÔÙ´Î¼ì²â
     

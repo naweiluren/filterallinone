@@ -62,22 +62,24 @@ def is_dns_rule(rule):
     检查规则是否为只包含域名的 DNS 过滤规则。
 
     Args:
-      rule: 要检查的规则字符串。
+        rule: 要检查的规则字符串。
 
     Returns:
-      如果规则是有效的 DNS 规则，则返回 True，否则返回 False。
+        如果规则是有效的 DNS 规则，则返回 True，否则返回 False。
     """
     if "/" in rule or "." not in rule:
         return False
 
-    #   print(f'start _ {rule}')
-
+    # print(f'start _ {rule}')
+    
     # 更严格的域名匹配模式，包括对端口号的可选匹配
     rule = rule.replace('@', '').replace('|', '').replace('^', '').replace('$', '')
-    pattern = r'^([a-zA-Z0-9*][a-zA-Z0-9*-]*[a-zA-Z0-9*]\.)*[a-zA-Z0-9*][a-zA-Z0-9*-]*[a-zA-Z0-9*](\.a-zA-Z)?$'
+
+    # print(rule)
+    pattern = r'^([a-zA-Z0-9*][a-zA-Z0-9*-]*\.)*[a-zA-Z0-9*][a-zA-Z0-9*-]*(\.a-zA-Z)?$'
     result = bool(re.match(pattern, rule))
-    #   print(f'end _ {rule}')
-    return result
+    # print(f'end _ {rule}')
+    return result   
 
 
 proxies = {
@@ -149,6 +151,7 @@ def download_rules(urls, dns_filename, general_filename):
                         dns_rules.append(rule)
                     #print(f"Identified general rule: {rule}")
                 else:
+                    # print(rule)
                     general_rules.append(rule)
                     #print(f"Identified DNS rule: {rule}")
 

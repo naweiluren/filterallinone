@@ -123,12 +123,12 @@ def process_denyallow_rule(rule):
 
 if __name__ == "__main__":
     
-    # print(is_dns_rule('||heartlessanthemantiquity.com^$all'))
+    # print(is_dns_rule('||0.beer^'))
     # print(is_dns_rule('||druggedrat.com^$all'))
     
     # print(is_dns_rule('||ad-host-backup-*.aliyuncs.com^'))
 
-    print(is_dns_rule('||optimus-ads.amap.com.w.alikunlun.com^'))
+    print(is_dns_rule('@@|tan.601234.com^$important'))
 
     
 

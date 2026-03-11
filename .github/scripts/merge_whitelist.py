@@ -57,4 +57,4 @@ def merge_whitelist(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
 
 if __name__ == "__main__":
     merge_whitelist(dns_file="ziyongdnsZ1", whitelist_file="whitelist.txt")
-    merge_whitelist(dns_file="ziyongdnsZ1", whitelist_file="third_whitelist.txt")
+    # merge_whitelist(dns_file="ziyongdnsZ1", whitelist_file="third_whitelist.txt")

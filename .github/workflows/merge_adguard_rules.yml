@@ -45,16 +45,24 @@ jobs:
         run: |
           python .github/scripts/download_rules.py --type third_party
 
+      - name: Merge baseline
+        run: |
+          python .github/scripts/merge_baseline.py        
+
       - name: Install HostlistCompiler (npm)
         run: npm install -g @adguard/hostlist-compiler
 
       - name: Source ziyongdnsZ Exclusion AdguardDNSRuler
         run: |
-          hostlist-compiler -c configuration.json -o ziyongdnsZ1
+          hostlist-compiler -c dns_conf.json -o ziyongdnsZ1
 
-      - name: Merge whitelist.txt
+      - name: Source ziyongdnsZ Exclusion AdguardDNSRuler
         run: |
-          python .github/scripts/merge_whitelist.py     
+          hostlist-compiler -c ziyong_conf.json -o ziyongruler    
+
+      # - name: Merge whitelist.txt blacklist.txt
+      #   run: |
+      #     python .github/scripts/merge_whitelist.py     
 
       # - name: Optimize DNS rules
       #   run: |
@@ -63,9 +71,9 @@ jobs:
         run: |
           python .github/scripts/remove_useless_domain.py ziyongdnsZ1 ziyongdns
 
-      - name: Optimize General rules
-        run: |
-          sort -u ziyongrulerZ > ziyongruler
+      # - name: Optimize General rules
+      #   run: |
+      #     sort -u ziyongrulerZ > ziyongruler
 
       - name: calssfiy ziyongruler
         run: |

@@ -19,7 +19,7 @@ def generate_readme(dns_file="ziyongdns", ruler_file="ziyongruler", readme_file=
         dns_line_count = "File not found"
 
     try:
-        with open(ruler_file, 'r') as f:
+        with open(ruler_file, 'r', encoding='utf-8') as f:
             ruler_line_count = sum(1 for _ in f)
     except FileNotFoundError:
         ruler_line_count = "File not found"
