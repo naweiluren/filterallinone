@@ -1218,7 +1218,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||1.tongquee.com^
 ||1.uc129.com^
 ||1.v-x.com.cn^
-||1.vg^
 ||1.weiheshidai.com^
 ||1.win7china.com^
 ||1.www.putridgadzooks.com^
@@ -1271,6 +1270,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||3rd.t.sohu.com^
 ||4.adsco.re^
 ||4.afs.googleadservices.com^
+||4.fo^
 ||5.5ppt.net^
 ||5.61.55.143^
 ||5.ccutu.com^
@@ -2098,7 +2098,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||b.itvnet.lv^
 ||b.iwanna.southwest.com^
 ||b.januarytubs.store^
-||b.karte.io^
 ||b.koodomobile.com^
 ||b.kouke5.com^
 ||b.kuangtuiguoo18888.com^
@@ -2254,7 +2253,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||c.data.mob.com^
 ||c.dcdn.es^
 ||c.de.msn.com^
-||c.deadlinefunnel.com^
 ||c.dengbaozx.cn^
 ||c.deployads.com^
 ||c.dk.msn.com^
@@ -2486,6 +2484,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||d.applovin.com^
 ||d.applvn.com^
 ||d.biboi.cn^
+||d.bilibili.com^
 ||d.clkservice.youdao.com^
 ||d.cntv.cn^
 ||d.cybtel.com^
@@ -2521,9 +2520,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||d.m-net.de^
 ||d.mail.levi.com^
 ||d.meinschiff.com^
-||d.mk.emna.katespadeoutlet.com^
 ||d.mob.com^
-||d.mradx.net^
 ||d.nativendo.de^
 ||d.nexialo.com^
 ||d.nnightkil.com^
@@ -3064,7 +3061,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||e.w6xj6.cn^
 ||e.wbanz.com^
 ||e.wbies.com^
-||e.wbsm.ai^
 ||e.wc59b.cn^
 ||e.wcenr.com^
 ||e.wcjup.com^
@@ -3712,8 +3708,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kuaiduizuoye.com/kdapi/conf/appbanners
 ||kuaiduizuoye.com/kdapi/conf/initbanner
 ||kzsisc.3.dk^
-||l.20minutes.fr^
-||l.actu.fr^
 ||l.adiers.com^
 ||l.apna.co^
 ||l.audibook.si^
@@ -3740,7 +3734,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.dev-ajo.caixabank.com^
 ||l.dev.audibook.si^
 ||l.diapasonmag.fr^
-||l.directoalpaladar.com^
 ||l.dm.casio.info^
 ||l.doctissimo.fr^
 ||l.dzfoot.com^
@@ -3752,14 +3745,10 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.fancyapi.com^
 ||l.ffsagami.com^
 ||l.ffx.io^
-||l.filmstarts.de^
 ||l.football.fr^
 ||l.football365.fr^
 ||l.francetvinfo.fr^
-||l.futura-sciences.com^
 ||l.gamekult.com^
-||l.gamepro.de^
-||l.gamestar.de^
 ||l.getpyfl.com^
 ||l.glrcy.cn^
 ||l.gm.mob.com^
@@ -3781,7 +3770,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.lacremedugaming.fr^
 ||l.lechasseurfrancais.com^
 ||l.lejournaldelamaison.fr^
-||l.lequipe.fr^
 ||l.lesnumeriques.com^
 ||l.lilyzhou.com^
 ||l.lyfshort.com^
@@ -3789,7 +3777,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.m.tradiecore.com.au^
 ||l.maison-travaux.fr^
 ||l.mariefrance.fr^
-||l.marmiton.org^
 ||l.melty.fr^
 ||l.miyachan.cc^
 ||l.mnjkw.cn^
@@ -3817,7 +3804,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.prk.bz^
 ||l.profitshare.ro^
 ||l.psychologies.com^
-||l.radiofrance.fr^
 ||l.redcross.or.ke^
 ||l.rovo.co^
 ||l.sagafan.jp^
@@ -3834,7 +3820,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.tcp.push.mob.com^
 ||l.telestar.fr^
 ||l.tenkomori.tv^
-||l.tf1info.fr^
 ||l.thumbtack.com^
 ||l.ti-da.net^
 ||l.topsante.com^
@@ -3851,9 +3836,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.web.huya.com^
 ||l.whizzl.com^
 ||l.workoutparty.co^
-||l.xataka.com.br^
-||l.xataka.com.mx^
-||l.xataka.com^
 ||l.yidianzixun.com^
 ||l.ykimg.com^
 ||l.youku.com^
@@ -4108,6 +4090,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||m.apxyz.com^
 ||m.aqiudaohang.com^
 ||m.aquns.com^
+||m.arquivo.pt^
 ||m.arxnfj14120.cn^
 ||m.assigned.cn^
 ||m.atm.youku.com^
@@ -4591,7 +4574,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||m.moomoo.com^
 ||m.mouaa.com^
 ||m.mqgpo.com^
-||m.mradx.net^
 ||m.mrtuo.com^
 ||m.msuik.cn^
 ||m.msujd.cn^
@@ -5094,6 +5076,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||n.serialeonline.pl^
 ||n.toyotafinancial.com^
 ||n.vlion.cn^
+||n.vs108.com^
 ||nano-game-ad-slot-api.erabitstudios.cn.w.cdngslb.com^
 ||nbc-analytics-drwcpccxdq-as.a.run.app^
 ||news.l.qq.com^
@@ -5206,7 +5189,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||p.mendoc.cn^
 ||p.mermaid.live^
 ||p.metrilo.com^
-||p.midasplayer.com^
 ||p.minds.com^
 ||p.netork.ru^
 ||p.niudashu.com^
@@ -5238,7 +5220,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||p.statp.com^
 ||p.store.qq.com^
 ||p.sug.so.com^
-||p.takyn.dev^
 ||p.tamenshuo.com^
 ||p.tanx.com^
 ||p.teads.tv^
@@ -6853,7 +6834,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||t.blog.livedoor.jp^
 ||t.bluehens.com^
 ||t.bndestem.nl^
-||t.booksinc.com^
 ||t.brandingbrand.com^
 ||t.bucky.uwbadgers.com^
 ||t.budweisergardens.com^
@@ -7089,7 +7069,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||t.msuspartans.com^
 ||t.msz-bahn.de^
 ||t.mydialoginsight.com^
-||t.myfitcoach.app^
 ||t.mynexity.fr^
 ||t.nativendo.de^
 ||t.navysports.com^
@@ -7224,7 +7203,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||t.spot.im^
 ||t.srongee.top^
 ||t.staging-mail.tabcorp.com.au^
-||t.stqry.app^
 ||t.streetsblog.org^
 ||t.strk04.email^
 ||t.strokeawareness.com^
@@ -7322,7 +7300,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||t.yunsoka.com^
 ||t.yzwr588.com^
 ||t.zhipin.com^
-||t.zilmtech.app^
 ||t1.a.market.xiaomi.com^
 ||t2.a.market.xiaomi.com^
 ||t3.a.market.xiaomi.com^
@@ -7408,7 +7385,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||u.20minutes.fr^
 ||u.20mn.it^
 ||u.360.cn^
-||u.9111s.ru^
 ||u.api.look.360.cn^
 ||u.audi-pureprotection.com^
 ||u.cjlaoshi.com^
@@ -7438,7 +7414,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||u.txuesoft.cn^
 ||u.uc123.com^
 ||u.umm6.cn^
-||u.viisceis.com^
 ||u.vlion.cn^
 ||u.wqqbqy7cv7mnu38vxwtocg3o.cyou^
 ||u.x.jd.com^
@@ -7550,7 +7525,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||w.uohz.cn^
 ||w.uptolike.com^
 ||w.usabilla.com^
-||w.v827kwewlq4nwq.cyou^
 ||w.vpnalert.com^
 ||w.waacorp.com^
 ||w.x.baidu.com^
@@ -7701,7 +7675,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||z.oviss.space^
 ||z.qingting.fm^
 ||z.tudouxy01.com^
-||z.webengage.co^
 ||z8lhtkgsjatk.n.adsco.re^
 ||zbz.m.qxs.la^
 ||zccs.k.luhongfu.com^
