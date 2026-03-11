@@ -3943,6 +3943,7 @@ tovima.gr##.whsk_parent__div
 thetoc.gr##.opap-section
 alphanews.live##.adverisment-box
 in.gr##.parent__div:has(> div[id^="300x250_"])
+newsbreak.gr##.gAdCentered
 newsbeast.gr##.articleInRead
 ||antenna.gr/js/adman
 sport24.gr###read-more-widget
@@ -9409,7 +9410,6 @@ picazor.com#%#//scriptlet('trusted-set-local-storage-item', 'lastAdShown', '9999
 picazor.com##a[href="/livesex"]
 picazor.com##a[href="https://theporndude.com/"]
 etymonline.com##div[class*="bg-secondary"]:has(> div[class] > div.relative > div[id^="div-gpt-ad-"])
-etymonline.com##.fixed:has(> div[id^="div-gpt-ad-"])
 porngames.com##.contentbox:has(> div > center > a[href^="https://t.ajrkm3.com/"])
 milfcaps.com,leakslove.com##.header-ad-all
 lesbosland.com##div[id*="-boxes-"]
@@ -10324,7 +10324,6 @@ emturbovid.com##.div_pop
 radiopaedia.org##.ad-banner-desktop-row:not(#style_important)
 radiopaedia.org###content-banner
 radiopaedia.org##.size_choice_728x90
-radiopaedia.org##.content-filter > p[class="text-center"]
 torlock.com##article > .table-responsive:has(> table > tbody > tr > td > div[style] > a[rel]:not([href*="torlock.com/"],[href^="/"]))
 jpost.com#?#.left-side section.line-left-side-after-container:has(> section div.OUTBRAIN)
 jpost.com##.spotim-banner
@@ -12593,7 +12592,6 @@ icegaytube.tv,machogaytube.com,gogaytube.tv,good-gay.tv,gayporno.fm##.b-mobile-s
 ||ashemaletube.com/ast/b/
 fetishpapa.com,pornoxo.com,ashemaletube.com,boyfriendtv.com##.ads-block-rightside
 next-episode.net##table #afh
-next-episode.net###bannerclass
 cookingchanneltv.com,diynetwork.com,foodnetwork.com,travelchannel.com,hgtv.com###dfp_leaderboard
 slickdeals.net###crt-adblock-a
 pornwhite.com,vikiporn.com,milf-porn.xxx,thisvid.com##.bottom-spots
