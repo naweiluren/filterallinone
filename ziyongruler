@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-03-11T09:17:47.516Z
+! Last modified: 2026-03-11T22:55:32.293Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -8142,6 +8142,10 @@ $websocket,domain=5nj.com|cechi8.com
 /leftbottomads.
 /leftsidebarads.
 /legacy-ads.
+/lenovo/2021/all*.js
+/lenovo/pc/all*.js
+/lenovo/pc/piaofu2.js
+/lenovo/pc/top.js
 /lftracker.
 /lftracker_
 /lg.php?adid=
@@ -14726,6 +14730,7 @@ piaotian5.net##script + div[style="padding:15px;"]
 piaotianxs.com##script ~ a
 pic.imgdb.cn/item/*.gif
 pincong.rocks##+js(no-setInterval-if, Ad Block)
+ping0.cc##.myeles
 pinlue.com##.appOnly-container.feed-list-container
 pinlue.com##.article-container > .cat_title.section-hd
 pixabay.com##.carbon-ad
