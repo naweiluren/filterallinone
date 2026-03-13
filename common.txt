@@ -304,6 +304,7 @@ $websocket,domain=5nj.com|cechi8.com
 *$denyallow=xpxs.net|jiasucdn.com,domain=xpxs.net,xhr,image,script
 *$script,3p,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com,domain=banzhu1111111.com|banzhu2222222.com|banzhu3333333.com|banzhu4444444.com|banzhu5555555.com|banzhu6666666.com|banzhu7777777.com|banzhu8888888.com|banzhu9999999.com
 *$script,3p,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com|rumanhua.org|cdnsrc.asp.net|ddxsmf.com|apps.bdimg.com|alicdn.com,_,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top|rumanhua.org|ddxsmf.com|xb6v.org|6v520.cc
+*$script,3p,domain=huanggua22.com
 *$script,3p,xhr,domain=m.biquge700.com|biquge001.com
 *$script,xhr,3p,domain=m.1024txt.com
 *$xhr,denyallow=ddxsmf.com|apps.bdimg.com|cdnsrc.asp.net,domain=ddxsmf.com
@@ -1144,6 +1145,7 @@ $websocket,domain=5nj.com|cechi8.com
 .gif^$domain=kobi8.com|66se2.com
 .gif|$3p,domain=91xx133.cc
 .gif|$domain=99a67.com|99re.com
+.gif|$image,3p,domain=huanggua22.com
 .gif|$third-party,domain=33235.net
 .googleanalytics.js
 .googleanalytics.prod.
@@ -11494,6 +11496,8 @@ $websocket,domain=5nj.com|cechi8.com
 265g.com##a[href^="http://union-click.jd.com/"]
 265g.com##div[class^="ban"]
 28188.com,28188.net,yxad.com###nav
+2cycomic.com,whnyd.com,yemancomic.com##body > a
+2cycomic.com,yemancomic.com##body > div > center
 2dfan.com,galge.fun###index_bg_box
 2j0.cn##table[style="margin-bottom: 10px;width:100%;text-align:center;font-weight:700;background-color: #ffffff;"]
 2ujj.com#@#.ad350
@@ -12099,6 +12103,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.cloudflare.net^$stylesheet,script,xhr,domain=cocomanga.com|cocomanga.com
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.jsdelivr.net^$script,domain=xiaoxiangxs.com|yemancomic.com
+@@||cdn.jsdelivr.net^$script,domain=yemancomic.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xsw.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||chinamobile.com^*/ad$~3p
@@ -14592,7 +14597,6 @@ piaotian5.net##script + div[style="padding:15px;"]
 piaotianxs.com##script ~ a
 pic.imgdb.cn/item/*.gif
 pincong.rocks##+js(no-setInterval-if, Ad Block)
-ping0.cc##.myeles
 pinlue.com##.appOnly-container.feed-list-container
 pinlue.com##.article-container > .cat_title.section-hd
 pixabay.com##.carbon-ad
@@ -15011,6 +15015,7 @@ tv.youku.com$$div[class="ad-banner-wrapper"]
 tv1920.com$$script[tag-content="onkeydown"]
 tvshowbox.tw##a[href=" http://www.shumeimotel.com/"] > img
 tvyb02.com##script + div[style="text-align:center;"]
+tvyun07.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 tw.mall.yahoo.com##.hpad-wrapper
 tw.news.yahoo.com##.gn_sub_blue
 tw.stock.yahoo.com##.news > div[class="bd quote"]:has(ul > li > .geminiAd)
@@ -16116,6 +16121,7 @@ zznews.cn##.ad:not([style])
 ||*.iqiyi.com/*/other/*/f4/*.f4v?dis_dz=*&src=iqiyi.com*uuid=
 ||*.iqiyi.com/videos/other/*.f4v?dis_dz=*&src=iqiyi.com*&uuid=
 ||*.iqiyi.com/videos/other/*.f4v?v=*&pv=*
+||*.mp4$redirect=noop-0.1s.mp3,domain=huavod.com,media
 ||*.mp4?dis_dz=*&src=iqiyi.com&dis_hit=*&uuid=
 ||*.pstatp.com/img/mosaic-legacy/*.jpeg
 ||*/2019/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
@@ -20490,6 +20496,7 @@ iplaysoft.com##.wwads-cn.wwads-horizontal
 zhihu.com##.KfeCollection-VipRecommendCard
 zhihu.com##.Kok-mobile.Kok.Lottie
 zhihu.com##.HotBanner
+zhihu.com##.MobileAppHeader-downloadLink
 zhihu.com##div[data-za-detail-view-path-is_ad]
 zhihu.com##.Banner.Card, .shameimaru-section, .Banner-image, .Banner-image
 ||zhihu-web-analytics.zhihu.com/
