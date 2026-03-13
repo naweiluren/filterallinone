@@ -1,6 +1,14 @@
 import requests
 import argparse
 import re
+import json
+import os
+from datetime import datetime
+from collections import deque
+
+# 添加日志文件配置
+LOG_FILE = "download_log.json"
+MAX_LOG_PER_URL = 3  # 保留最近3次记录
 
 headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36'
@@ -88,24 +96,67 @@ proxies = {
 }
 
 
+def load_download_log():
+    """加载下载日志"""
+    if os.path.exists(LOG_FILE):
+        try:
+            with open(LOG_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except:
+            return {}
+    return {}
+
+def save_download_log(log_data):
+    """保存下载日志，为每个URL只保留最近MAX_LOG_PER_URL条记录"""
+    # 为每个URL只保留最近MAX_LOG_PER_URL条记录
+    for url in log_data:
+        if len(log_data[url]) > MAX_LOG_PER_URL:
+            log_data[url] = log_data[url][-MAX_LOG_PER_URL:]
+    
+    with open(LOG_FILE, 'w', encoding='utf-8') as f:
+        json.dump(log_data, f, ensure_ascii=False, indent=2)
+
+def update_download_log(url, status, error_msg=None):
+    """更新指定URL的下载状态"""
+    log_data = load_download_log()
+    
+    # 确保log_data是字典
+    if not isinstance(log_data, dict):
+        log_data = {}
+    
+    # 如果URL不存在，创建新的列表
+    if url not in log_data:
+        log_data[url] = []
+    
+    # 创建新的日志条目
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    new_entry = {
+        "timestamp": current_time,
+        "status": status,
+        "error": error_msg if error_msg else ""
+    }
+    
+    log_data[url].append(new_entry)
+    save_download_log(log_data)
+
 def download_rules(urls, dns_filename, general_filename):
     dns_rules = []
     general_rules = []
-
+    
     for url in urls:
-        print(f'{url}')
+        print(f'正在下载: {url}')
+        
         try:
             # response = requests.get(url, proxies=proxies, headers=headers, timeout=5)
             response = requests.get(url, headers=headers, timeout=5)
             response.raise_for_status()
             rules = response.text.splitlines()
-            # print('1234')
-
-            # rules = ['||heartlessanthemantiquity.com^$all']
-
+            
+            # 记录成功
+            update_download_log(url, "success")
+            print(f'✅ 下载成功: {url}')
+            
             for rule in rules:
-
-                # print(rule)
                 if rule.startswith('!') or rule.startswith('#'):
                   continue
 
@@ -149,51 +200,22 @@ def download_rules(urls, dns_filename, general_filename):
                                 dns_rules.append(f"@@||{domain}^")
                     else:
                         dns_rules.append(rule)
-                    #print(f"Identified general rule: {rule}")
                 else:
-                    # print(rule)
                     general_rules.append(rule)
-                    #print(f"Identified DNS rule: {rule}")
 
         except requests.exceptions.RequestException as e:
-            print(f"Error downloading {url}: {e}")
+            error_msg = str(e)
+            print(f'❌ 下载失败: {url} - {error_msg}')
+            # 记录失败
+            update_download_log(url, "failed", error_msg)
 
+    # 写入规则文件
     with open(dns_filename, 'w', encoding='utf-8') as f:
         for rule in dns_rules:
             f.write(rule + '\n')
 
     with open(general_filename, 'w', encoding='utf-8') as f:
         for rule in general_rules:
-            f.write(rule + '\n')
-
-def download_whitelist_rules(urls, filename):
-    whitelist_rules = []
-
-    for url in urls:
-        try:
-            response = requests.get(url, timeout=10)
-            response.raise_for_status()
-            rules = response.text.splitlines()
-
-            for rule in rules:
-                if rule.startswith('!') or rule.startswith('#'):
-                  continue
-
-                if len(rule.strip()) <= 0:
-                  continue
-
-                if not rule.startswith('@'):
-                  rule = '@@|' + rule
-
-                if not rule.endswith('^'):
-                    rule += '^'
-                whitelist_rules.append(rule)
-                
-        except requests.exceptions.RequestException as e:
-            print(f"Error downloading {url}: {e}")
-
-    with open(filename, 'w', encoding='utf-8') as f:
-        for rule in whitelist_rules:
             f.write(rule + '\n')
 
 if __name__ == "__main__":
@@ -205,5 +227,3 @@ if __name__ == "__main__":
       download_rules(OFFICIAL_RULES, 'AdguardDNSRuler', 'AdguardRuler')
     elif args.type == 'third_party':
       download_rules(THIRD_PARTY_RULES, 'ziyongdnsZ', 'ziyongrulerZ')
-    elif args.type == 'whitelist':
-      download_whitelist_rules(WHITE_LIST_RULES, 'third_whitelist.txt')  
