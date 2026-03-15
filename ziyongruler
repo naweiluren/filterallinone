@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-03-13T23:00:05.293Z
+! Last modified: 2026-03-14T22:52:19.237Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13451,7 +13451,6 @@ chongbuluo.com$$script[tag-content="cse"]
 chongbuluo.com$$td[id="gs_tti"]
 chongbuluo.com,lzep.cn###add
 chuandong.com,instrument.com.cn##a[href*="/ad/"]
-chuanghongjituan.com##.streamer-container2
 chuzuche8.com##body > h4 > font[color="red"][size="6"]
 chuzuche8.com#?##container > font[color] > font[color] > div[style]:has(> table[width] > tbody > tr > th > a[href][target="_blank"])
 chuzuche8.com#?#body > font:contains(function)
@@ -15376,6 +15375,7 @@ wholehk.com#?#div[id^="postmessage_"] > div[align="center"][style^="font-size:11
 whsir.com###adswidget1-quick-adsense-2
 wigcw.cn##.alert-block
 wigcw.cn##a[href*=".gwents.com"]
+wikisport.cc##+js(prevent-innerHTML, div, _mtj)
 win007.com##a[href^="http://www.edewin.com/"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
@@ -19759,6 +19759,7 @@ zznews.cn##.ad:not([style])
 ||xdowns.com/info.js
 ||xdowns.com/js/lefttuijian.js
 ||xdowns.com/template/tshouyou/js/jietu.js
+||xdyn0*jy.com^$script,xhr,3p
 ||xfsub.com:88/js/*ad
 ||xgmeizi.com/smdd/
 ||xia1ge.com/wp-content/uploads/*/wechat-ad.png
@@ -19827,6 +19828,7 @@ zznews.cn##.ad:not([style])
 ||xp85.com/common/images/downad
 ||xpgod.com/statics/skin_js/xpgod/
 ||xrc3.com/js/floatcaoplus.js
+||xscp0*xq.com^$script,xhr,3p
 ||xspic.com/css/asd
 ||xuefo365.cn/dd/*.php|
 ||xuehongxs.com:8862^
