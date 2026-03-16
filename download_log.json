@@ -9,6 +9,11 @@
       "timestamp": "2026-03-14 22:19:13",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:41",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://filters.adtidy.org/android/filters/11_optimized.txt": [
@@ -19,6 +24,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:13",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:42",
       "status": "success",
       "error": ""
     }
@@ -33,6 +43,11 @@
       "timestamp": "2026-03-14 22:19:13",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:42",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://filters.adtidy.org/android/filters/3_optimized.txt": [
@@ -43,6 +58,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:14",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:42",
       "status": "success",
       "error": ""
     }
@@ -57,6 +77,11 @@
       "timestamp": "2026-03-14 22:19:14",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:42",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext": [
@@ -67,6 +92,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:15",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:43",
       "status": "success",
       "error": ""
     }
@@ -81,6 +111,11 @@
       "timestamp": "2026-03-14 22:19:15",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:43",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://filters.adtidy.org/android/filters/18_optimized.txt": [
@@ -91,6 +126,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:15",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:43",
       "status": "success",
       "error": ""
     }
@@ -105,6 +145,11 @@
       "timestamp": "2026-03-14 22:19:15",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:43",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://filters.adtidy.org/android/filters/20_optimized.txt": [
@@ -115,6 +160,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:16",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:43",
       "status": "success",
       "error": ""
     }
@@ -129,6 +179,11 @@
       "timestamp": "2026-03-14 22:19:16",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:43",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://filters.adtidy.org/android/filters/22_optimized.txt": [
@@ -139,6 +194,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:16",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:43",
       "status": "success",
       "error": ""
     }
@@ -153,6 +213,11 @@
       "timestamp": "2026-03-14 22:19:17",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:44",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt": [
@@ -163,6 +228,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:17",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:44",
       "status": "success",
       "error": ""
     }
@@ -177,6 +247,11 @@
       "timestamp": "2026-03-14 22:19:17",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:44",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt": [
@@ -187,6 +262,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:17",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:44",
       "status": "success",
       "error": ""
     }
@@ -201,6 +281,11 @@
       "timestamp": "2026-03-14 22:19:18",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:44",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt": [
@@ -211,6 +296,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:18",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:45",
       "status": "success",
       "error": ""
     }
@@ -225,6 +315,11 @@
       "timestamp": "2026-03-14 22:19:18",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:45",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://filters.adtidy.org/android/filters/224_optimized.txt": [
@@ -235,6 +330,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:19",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:45",
       "status": "success",
       "error": ""
     }
@@ -249,6 +349,11 @@
       "timestamp": "2026-03-14 22:19:19",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:45",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://filters.adtidy.org/android/filters/5_optimized.txt": [
@@ -259,6 +364,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:19",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:45",
       "status": "success",
       "error": ""
     }
@@ -273,6 +383,11 @@
       "timestamp": "2026-03-14 22:19:20",
       "status": "failed",
       "error": "HTTPConnectionPool(host='rssv.cn', port=80): Max retries exceeded with url: /adguard/api.php?type=black (Caused by NameResolutionError(\"HTTPConnection(host='rssv.cn', port=80): Failed to resolve 'rssv.cn' ([Errno -5] No address associated with hostname)\"))"
+    },
+    {
+      "timestamp": "2026-03-15 22:20:46",
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='rssv.cn', port=80): Max retries exceeded with url: /adguard/api.php?type=black (Caused by NameResolutionError(\"HTTPConnection(host='rssv.cn', port=80): Failed to resolve 'rssv.cn' ([Errno -5] No address associated with hostname)\"))"
     }
   ],
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt": [
@@ -283,6 +398,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:20",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:46",
       "status": "success",
       "error": ""
     }
@@ -297,6 +417,11 @@
       "timestamp": "2026-03-14 22:19:20",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:47",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt": [
@@ -307,6 +432,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:23",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:50",
       "status": "success",
       "error": ""
     }
@@ -321,6 +451,11 @@
       "timestamp": "2026-03-14 22:19:23",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:50",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt": [
@@ -331,6 +466,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:23",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:50",
       "status": "success",
       "error": ""
     }
@@ -345,6 +485,11 @@
       "timestamp": "2026-03-14 22:19:24",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:50",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt": [
@@ -357,6 +502,11 @@
       "timestamp": "2026-03-14 22:19:24",
       "status": "success",
       "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:51",
+      "status": "success",
+      "error": ""
     }
   ],
   "https://raw.githubusercontent.com/user001235/112/main/white.txt": [
@@ -367,6 +517,11 @@
     },
     {
       "timestamp": "2026-03-14 22:19:24",
+      "status": "success",
+      "error": ""
+    },
+    {
+      "timestamp": "2026-03-15 22:20:51",
       "status": "success",
       "error": ""
     }

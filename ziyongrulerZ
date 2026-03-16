@@ -25587,6 +25587,8 @@ wiki.mbalib.com###p-ad-bd
 wiki.mbalib.com##.ad-br
 wiki.mbalib.com##.tool-bar > a[target="_blank"]
 wiki.mbalib.com##div[id^="p-ad-"]
+wikisport.cc##+js(addEventListener-defuser, click, window.open)
+wikisport.cc##+js(no-window-open-if)
 wikisport.cc##+js(prevent-innerHTML, div, _mtj)
 win007.com##a[href^="http://www.edewin.com/"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]

@@ -15236,6 +15236,8 @@ wholehk.com#?#div[id^="postmessage_"] > div[align="center"][style^="font-size:11
 whsir.com###adswidget1-quick-adsense-2
 wigcw.cn##.alert-block
 wigcw.cn##a[href*=".gwents.com"]
+wikisport.cc##+js(addEventListener-defuser, click, window.open)
+wikisport.cc##+js(no-window-open-if)
 wikisport.cc##+js(prevent-innerHTML, div, _mtj)
 win007.com##a[href^="http://www.edewin.com/"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
