@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-03-15T22:54:34.067Z
+! Last modified: 2026-03-16T23:00:50.147Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -11531,12 +11531,23 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.*##.modal-body > ul.pop-list
 18comic.*##.top-a2db
 18comic.*#@#img[style*="300px"]
+18comic.org,18comic.vip,18comic.ink###guide-modal
+18comic.org,18comic.vip,18comic.ink##.div_sticky2
+18comic.org,18comic.vip,18comic.ink##.modal-backdrop
+18comic.org,18comic.vip,18comic.ink##.row[style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip,18comic.ink##:has(>ins+div)
 18comic.org,18comic.vip,18comic.ink##:has(>ins+script)
 18comic.org,18comic.vip,18comic.ink##:has(>ins+style)
 18comic.org,18comic.vip,18comic.ink##:has(>script+ins)
 18comic.org,18comic.vip,18comic.ink##:not(body):has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,18comic.ink##a[herf*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > [style*="back"]
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > div[style]
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > img + [style]
 18comic.org,18comic.vip,18comic.ink##div[data-group]:has(>.group-notice)
+18comic.org,18comic.vip,18comic.ink##div[data-group][data-width="300"]
+18comic.org,18comic.vip,18comic.ink##style + div[style="cursor: pointer; position: relative;"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
@@ -13779,6 +13790,7 @@ freestresser.to$$script[tag-content="ads"]
 fsbot.xyz##+js(prevent-fetch, pagead2.googlesyndication.com)
 ftchinese.com##+js(no-setTimeout-if, .offsetHeight)
 ftchinese.com##.subscription-promo-container
+ftchinese.com#@#.AdsBox
 fuli.us###callboard
 fuli.us###toubuads
 fuli.us##.slick
