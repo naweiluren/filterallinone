@@ -7481,6 +7481,7 @@ $websocket,domain=5nj.com|cechi8.com
 /hubspot_tracking.
 /hubxt.*/js/eht.js?
 /hubxt.*/js/ht.js
+/huya/main/widget/roomGg
 /hw-ads.
 /i.php?z=$script,third-party
 /i/ads/*
@@ -11434,23 +11435,6 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.*##.modal-body > ul.pop-list
 18comic.*##.top-a2db
 18comic.*#@#img[style*="300px"]
-18comic.org,18comic.vip,18comic.ink###guide-modal
-18comic.org,18comic.vip,18comic.ink##.div_sticky2
-18comic.org,18comic.vip,18comic.ink##.modal-backdrop
-18comic.org,18comic.vip,18comic.ink##.row[style="display: flex;flex-wrap: wrap;"]
-18comic.org,18comic.vip,18comic.ink##:has(>ins+div)
-18comic.org,18comic.vip,18comic.ink##:has(>ins+script)
-18comic.org,18comic.vip,18comic.ink##:has(>ins+style)
-18comic.org,18comic.vip,18comic.ink##:has(>script+ins)
-18comic.org,18comic.vip,18comic.ink##:not(body):has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,18comic.ink##a[herf*="//"]:not([href*="18c"]) > img
-18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > [style*="back"]
-18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > div[style]
-18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > img
-18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > img + [style]
-18comic.org,18comic.vip,18comic.ink##div[data-group]:has(>.group-notice)
-18comic.org,18comic.vip,18comic.ink##div[data-group][data-width="300"]
-18comic.org,18comic.vip,18comic.ink##style + div[style="cursor: pointer; position: relative;"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
@@ -13654,7 +13638,6 @@ freestresser.to$$script[tag-content="ads"]
 fsbot.xyz##+js(prevent-fetch, pagead2.googlesyndication.com)
 ftchinese.com##+js(no-setTimeout-if, .offsetHeight)
 ftchinese.com##.subscription-promo-container
-ftchinese.com#@#.AdsBox
 fuli.us###callboard
 fuli.us###toubuads
 fuli.us##.slick
@@ -14026,6 +14009,12 @@ jkpan.cc##+js(abort-current-script, document.writeln, \u)
 jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jkptgbf.xyz,mfulbvu.xyz,91porna.com##+js(remove-attr, data-ads_url, [data-ads_url])
+jm18c-oec.net,18comic.org,18comic.vip,18comic.ink##:has(>ins+div)
+jm18c-oec.net,18comic.org,18comic.vip,18comic.ink##:has(>ins+script)
+jm18c-oec.net,18comic.org,18comic.vip,18comic.ink##:has(>ins+style)
+jm18c-oec.net,18comic.org,18comic.vip,18comic.ink##:has(>script+ins)
+jm18c-oec.net,18comic.org,18comic.vip,18comic.ink##:not(body):has(>script[src*=".realsrv.com"])
+jm18c-oec.net,18comic.org,18comic.vip,18comic.ink##div[data-group]:has(>.group-notice)
 jmcomic-zzz.org,18comic.org,18comic.vip##+js(abort-current-script, document.dispatchEvent, /getexoloader/)
 jmcomic-zzz.org,18comic.org,18comic.vip##+js(no-setTimeout-if, float_right > div)
 jmcomic-zzz.org,18comic.org,18comic.vip##.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
@@ -15116,6 +15105,7 @@ v2rayssr.com$$script[tag-content=".mask"]
 v5pc.com###full_downad
 vdianying.cc##.swiper-wrapper
 vdianying.cc##.xintheme-gg
+verb.tw##.adsbox.ad-placement.ad-banner.textad.sponsorad:style(display: block !important;)
 veryhuo.com##.gs2
 verystream.com#@#.adsbox
 vhiphop.com###video_ad
@@ -18140,6 +18130,7 @@ zznews.cn##.ad:not([style])
 ||mss*.bdstatic.com/se/static/atom/search-ui/*/Banner/Banner*.js
 ||mss*.bdstatic.com/se/static/js/modules/ad*.js
 ||mss*.bdstatic.com/se/static/js/modules/invoke/popup/bannerConfig*.js
+||msstatic.com/huya/main3/widget/roomGg
 ||mt30.com/good/
 ||mt30.com/ok/
 ||muimg.com^$domain=lsjsoso.me
