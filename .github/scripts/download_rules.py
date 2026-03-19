@@ -77,6 +77,18 @@ def is_dns_rule(rule):
     """
     if "/" in rule or "." not in rule:
         return False
+    
+    # 处理 AdBlock Plus 选项部分（$后面的内容）
+    if '$' in rule:
+        # 分割规则和选项
+        rule_part, options_part = rule.split('$', 1)
+        rule = rule_part
+        
+        # 可选：验证选项部分格式（如需要）
+        # 选项部分通常由 | 分隔的多个域名组成，如 denyallow=a.com|b.com
+        # 这里不做严格验证，只确保主规则部分是域名
+    else:
+        options_part = ""
 
     # print(f'start _ {rule}')
     
@@ -94,6 +106,39 @@ proxies = {
     "http": "http://127.0.0.1:10808",
     "https": "http://127.0.0.1:10808", # Note: use 'http' scheme for the proxy URL in most cases
 }
+
+def split_domain_rules(rule):
+    """
+    专门处理 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com 格式的规则
+    """
+    if 'domain=' not in rule:
+        return [rule]
+    
+    # 分离前缀和domain部分
+    parts = rule.split('domain=', 1)
+    prefix = parts[0] + 'domain='
+    
+    # 获取domain部分，并处理可能的后续选项
+    domain_and_suffix = parts[1]
+    
+    # 检查是否有其他选项（逗号分隔）
+    if ',' in domain_and_suffix:
+        domain_part, suffix = domain_and_suffix.split(',', 1)
+        suffix = ',' + suffix
+    else:
+        domain_part = domain_and_suffix
+        suffix = ''
+    
+    # 拆分多个域名
+    domains = domain_part.split('|')
+    
+    # 生成新规则
+    result = []
+    for domain in domains:
+        new_rule = prefix + domain + suffix
+        result.append(new_rule)
+    
+    return result   
 
 
 def load_download_log():
@@ -201,7 +246,14 @@ def download_rules(urls, dns_filename, general_filename):
                     else:
                         dns_rules.append(rule)
                 else:
-                    general_rules.append(rule)
+                    # 对于非dns的denyallow直接不要了
+                    if '$denyallow=' in rule:
+                        continue
+
+                    split_rules  = split_domain_rules(rule)
+                    for r in split_rules:
+                        # print(r)
+                        general_rules.append(r)
 
         except requests.exceptions.RequestException as e:
             error_msg = str(e)
