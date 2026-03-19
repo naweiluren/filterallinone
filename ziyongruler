@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-03-17T23:01:19.328Z
+! Last modified: 2026-03-18T23:02:43.185Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -11514,7 +11514,6 @@ $websocket,domain=5nj.com|cechi8.com
 163.com,csai.cn,miercn.com##div[class^="gg"]
 16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##div[id^="Div"]
 167k.com##.icon_ad
-16fan.com,jianshen8.com##.index-banner
 170dy.com$$script[tag-content="userAgent"]
 17173.com,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com##.adbox
 173.192.147.21,iu91.co,ozxw.co,sejie.com,sejie2.us,sejie3.us,thesoccerline.com,ukhuaren.co###wp > br
@@ -14109,6 +14108,7 @@ javdove.com,javdove2.club,porn5f.com##.preroll-adv-popup-overlay
 javlibrary.com##+js(abort-current-script, document.write, /getCookie[\s\S]*?\("\\x/)
 jdpay.com$$div[banner-slider-area]
 jhhrm.com##img[onerror*="/ad/"]
+jianshen8.com,manwa.me##.index-banner
 jianshu.com##+js(set-constant, NEWS_FEED, noopFunc)
 jianshu.com##div[id]:has(> .ad-badge)
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
@@ -14467,6 +14467,7 @@ manhuadb.com##a.d-block
 manhuatai.com$$div[class="acgn-dynamic-content"]
 manhuatai.com$$div[class="guide-hd-banner"]
 manhuatai.com$$div[id="js_payChapter"]
+manwa.me##.ad-area > a
 map.baidu.com##.message-panel-open
 market.aliyun.com##.delivery-banner-activity
 masuit.com###bootstrap-touch-slider
