@@ -15586,6 +15586,7 @@ playtv.com.cn###table6
 playtv.com.cn##a[href="http://www.sdhanrui.cn/"]
 playtv.com.cn##table[id] > tbody > tr > td[colspan="2"][width^="32"]
 poedb.tw##+js(abort-current-script, document.getElementById, /#myModal'\)\.modal/)
+pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
 poklw.com##img[alt="æ°é¥­å¹¿å"]
 porn5f.com###main_video_block > .m-t-5.pull-right
 porn5f.com##.aa-dd-body
