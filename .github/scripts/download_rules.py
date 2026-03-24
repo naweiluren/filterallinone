@@ -90,6 +90,9 @@ def is_dns_rule(rule):
     else:
         options_part = ""
 
+    if "." not in rule:
+        return False       
+
     # print(f'start _ {rule}')
     
     # 更严格的域名匹配模式，包括对端口号的可选匹配
