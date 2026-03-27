@@ -18991,6 +18991,7 @@ zznews.cn##.ad:not([style])
 ||njjuntong.com/static/www/edu/tools/common.js
 ||njxzwh.com/downza/pc/v2017/images/downAD
 ||nmgnews.com.cn/other/003/000/*.swf
+||nodejs.cn/_static/js/common.js
 ||nphoto.net/media/
 ||nsdsvc.com/scripts/action-tracker.js
 ||nspmotion.com/tracking/
