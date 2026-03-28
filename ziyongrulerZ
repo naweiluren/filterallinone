@@ -26174,8 +26174,10 @@ nodejs.cn###biz_nav
 nodejs.cn###pagead
 nodejs.cn###pagead0
 nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
+nodejs.cn##+js(set-constant, adRender, noopFunc)
 nodejs.cn##+js(set-constant, adsbygoogle, {})
 nodejs.cn##+js(set-constant, adsbygoogle.loaded, true)
+nodejs.cn##.mymn-banner
 nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
@@ -35738,7 +35740,7 @@ zzzyk.com###Tinfo
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||nmgnews.com.cn/other/003/000/*.swf
 ||no1.168abc.net/upload/
-||nodejs.cn/_static/js/common.js
+||nodejs.cn/scripts/adsbygoogle.js
 ||nongjitong.com/adm/
 ||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.

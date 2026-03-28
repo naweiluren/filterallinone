@@ -15569,6 +15569,7 @@ nivod2.com,nivod2.tv,nivod4.com,nivod5.com##.img-list > .img-item:has(> a[href*=
 nivod2.com,nivod2.tv,nivod4.com,nivod5.com##a.focus_title_inner[href*=".ad_click"]:remove()
 nivod8.tv##.video-ad
 nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
+nodejs.cn##+js(set-constant, adRender, noopFunc)
 nodejs.cn##+js(set-constant, adsbygoogle, {})
 nodejs.cn##+js(set-constant, adsbygoogle.loaded, true)
 note.youdao.com##.sidebar-ft
@@ -18991,7 +18992,6 @@ zznews.cn##.ad:not([style])
 ||njjuntong.com/static/www/edu/tools/common.js
 ||njxzwh.com/downza/pc/v2017/images/downAD
 ||nmgnews.com.cn/other/003/000/*.swf
-||nodejs.cn/_static/js/common.js
 ||nphoto.net/media/
 ||nsdsvc.com/scripts/action-tracker.js
 ||nspmotion.com/tracking/
