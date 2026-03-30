@@ -15504,7 +15504,7 @@ mydrivers.com##div[style="width:728px;height:90px; margin: auto; padding-top: 5p
 mydrivers.com##div[style^="width:728px; height:90px;"]
 mydrivers.com##div[style^="width:890px;height:100px;"]
 mydrivers.com##img[width="300"][height="250"]
-mydrivers.com##li:has(>.titl+:contains(å¥½ç©))
+mydrivers.com##li:has(>.titl+:contains(/å¥½\s*ç©/))
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> div > a)
 mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> br + a)

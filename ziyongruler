@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-03-28T23:08:21.071Z
+! Last modified: 2026-03-29T23:06:23.440Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -16481,7 +16481,7 @@ mydrivers.com##div[style="width:728px;height:90px; margin: auto; padding-top: 5p
 mydrivers.com##div[style^="width:728px; height:90px;"]
 mydrivers.com##div[style^="width:890px;height:100px;"]
 mydrivers.com##img[width="300"][height="250"]
-mydrivers.com##li:has(>.titl+:contains(å¥½ç©))
+mydrivers.com##li:has(>.titl+:contains(/å¥½\s*ç©/))
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> div > a)
 mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> br + a)
