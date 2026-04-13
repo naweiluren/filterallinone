@@ -4530,6 +4530,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\/\w{17}\//$script,~3p,domain=lancaizhu.com
 /\/\w{17}\//$script,~3p,domain=haitangwenxue999.com
 /\/\w{17}\//$script,~3p,domain=hbhmzt.com
+/\/\w{8}\/\w{10}\./$script,~3p,domain=2kzw.info
 /\/\w{8}\/\w{10}\./$script,~3p,domain=xwbxsw1.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=31xa.org
 /\/\w{8}\/\w{10}\./$script,~3p,domain=xpshuku.com
