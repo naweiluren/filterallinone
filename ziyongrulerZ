@@ -23475,6 +23475,7 @@ goodav17.com###sticky_ads
 goodav17.com##+js(abort-on-property-read, popunder)
 goodav17.com##.ads_pc
 goodav17.com##div[id$="content"] > div[style="margin: 0 auto; text-align:center; margin-top:30px; width:90%;"]
+goodinfo.tw,myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 google.com,google.com.hk$$div[data-text-ad="1"]
 googleads.g.doubleclick.net###mys-wrapper
 goosedaily.com##.lightboxbnr
@@ -25982,7 +25983,6 @@ myqqjd.com###advert_widget
 myqqjd.com##.cms-news-normal-box > article:has(span.merge-cat > a[href$="/activity/"])
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
-myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 mysteel.com###float-adv
 mysteel.com##[class*="-adv"]
 mysteel.com##body:style(background-image: none !important;)
@@ -26260,6 +26260,8 @@ o8tv.com#?#.container > .row > .myui-panel-bg:has(> .myui-panel-box > .myui-pane
 o8tv.com#?#.container > .row > .myui-panel-bg:has(> .myui-panel-box > .myui-panel_bd > .myui-vodlist > .col-lg-8 > .myui-vodlist__box > a[target="_blank"])
 oeeee.com###adImg
 oeeee.com##.homeAD
+ofiii.com##+js(json-prune-fetch-response, prerolls midrolls postrolls comm_ad house_ad pause_ad block_ad end_ad exit_ad pin_ad content_pool vertical_ad elements, , api/v1/detail)
+ofiii.com##.nonlinear_ad
 ofweek.com###\5f ad-2100
 ofweek.com###fixedADWrap
 oh100.com##.mySwiperBox

@@ -2,10 +2,10 @@
 # filterallinone
 
 ```
-    更新时间: 2026-04-22 10:01:57 （北京时间） 
+    更新时间: 2026-04-23 10:44:39 （北京时间） 
 
-ziyongdns: 148819 lines
-ziyongruler: 22673 lines
+ziyongdns: 206024 lines
+ziyongruler: 37321 lines
 ```
 
 支持处理分解denyallow修饰词的dns规则
