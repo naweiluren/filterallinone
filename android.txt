@@ -9,6 +9,18 @@
 ||p*-be-pack-sign.pglstatp-toutiao.com/web.business.image/*$app=com.moji.mjweather
 ||api.weibo.cn/2/statuses/extend?$replace=/"is_ad_card":/"10007":/
 ||api.weibo.cn/2/statuses/extend?$replace=/"source": "ad_reduce"/"source": "10007"/
+$popup,3p,domain=76fengyun.com
+$popup,3p,domain=avsdown.com
+$popup,3p,domain=downdv.com
+$popup,3p,domain=downdvs.com
+$popup,3p,domain=downhhh.com
+$popup,3p,domain=imedown.info
+$popup,3p,domain=jandown.com
+$popup,3p,domain=mimima.com
+$popup,3p,domain=mnks.jxedt.com
+$popup,3p,domain=rmdown.com
+$popup,3p,domain=soyunpan.com
+$popup,3p,domain=xmflv.com
 $popup,third-party,domain=88files.net
 $popup,third-party,domain=youtubeto.com
 $popup,third-party,domain=webkaka.com
@@ -870,11 +882,15 @@ $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.jmshuwu.net
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.wx-book.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=wodexiaoshuoh.com
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
+.189.gd^*.html?p=$popup,3p
+.com/?Intr=$popup,3p
+.com/?aff=$popup,3p
 /1*.html?|$script,third-party,xmlhttprequest
 /1*.xhtml?|$script,third-party,xmlhttprequest
 /1MObaudu.$script,xmlhttprequest
 /2*.html?|$script,third-party,xmlhttprequest
 /3*.html?|$script,third-party,xmlhttprequest
+/BadwebRemindPage.aspx?param=$popup,3p
 /BlockerBanner/*$xmlhttprequest
 /\.(accountant|bid|click|club|com|cricket|date|download|faith|link|loan|lol|men|online|party|racing|review|science|site|space|stream|top|trade|webcam|website|win|xyz|com)\/(([0-9]{2,9})(\.|\/)(css|\?)?)$/$script,stylesheet,third-party,xmlhttprequest
 /\.accountant\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
@@ -908,17 +924,25 @@ $script,subdocument,~third-party,websocket,xmlhttprequest,domain=wodexiaoshuoh.c
 /\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}\/$/$script,third-party,xmlhttprequest
 /ad.xml$xmlhttprequest
 /bootstrap.wasm$xmlhttprequest
+/cpro.$popup,3p
 /d?dn^$app=com.tencent.mobileqq,important
 /data/collect/*$xmlhttprequest
 /get?pvt=*&ab=$xmlhttprequest
+/hndxweb/push$popup,3p
+/indexpc.html?agent=$popup,3p
 /loaded?b=$xmlhttprequest
 /popup/log|$~third-party,xmlhttprequest
+/pushportal/PushPortalServer$popup,3p
+/pushstart.aspx?$popup,3p
+/pushstart.html?$popup,3p
 /relay/events|$xmlhttprequest
 /rg-erdr.php$xmlhttprequest
 /rg-rlog.php$xmlhttprequest
+/tanchuan.htm$popup,3p
 /vs.php?id=$third-party,xmlhttprequest
 /zhenbuka/statics/js/functions.js^$replace=/killAdKiller/fuck/i
 @@||api.imisou.cn/adMark/issued$app=com.hhmss.verticalsearch
+@@||apk.tw^*/ads.js$script,~3p
 @@||appapi.51job.com/api/market^$app=com.job.android
 @@||color.jkcsjd.com/api^$app=com.jingdong.app.mall
 @@||connectivitycheck.gstatic.com/generate_204$app=com.android.vending
@@ -930,6 +954,7 @@ $script,subdocument,~third-party,websocket,xmlhttprequest,domain=wodexiaoshuoh.c
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=youneed.win
 @@||v2.get.sogou.com/q^$app=com.sohu.inputmethod.sogou
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe123.net,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com,yabook.org#@#.adsbygoogle
+apk.tw##body > div:has(> div[class^="yap-ad-"])
 apk.tw##ins.adsbygoogle
 apk.tw#@##google_ad
 article.docway.net/*.js^$replace=/(x-google-ad|position-float|data-ad-format|adsbygoogle|recommends)//
@@ -1005,6 +1030,7 @@ zhidao.baidu.com^$replace=/ads_|ec_ads|addAdsCk/null/
 ||114.221.148.49:8080^$app=com.tencent.mobileqq
 ||11px.cn/Style/js/jquery.min.js^$replace=/zz_//
 ||125.94.60.144:80^$app=com.tencent.mobileqq
+||189.cn/actpush/$popup,3p
 ||203.119.215.109:443^$app=com.ss.android.ugc.aweme
 ||203.205.239.248:8081^$app=com.tencent.mobileqq
 ||35.$popup,domain=dfpan.com
@@ -1149,7 +1175,12 @@ zhidao.baidu.com^$replace=/ads_|ec_ads|addAdsCk/null/
 ||feeds.sina.cn/api/*/tianyi^$replace=/(\"sax\"|saxs|mixers|mjs|\"img\"|\"vali\")/null/
 ||flyv.tv/a/$xmlhttprequest
 ||g.csdnimg.cn/common/csdn-toolbar/csdn-toolbar.js^$replace=/(advertData|adsbox|bannerAdvert|redpack)/csdn/
+||gd.189.cn/ad/$popup,3p
+||gd.189.cn/gz/promotion/$popup,3p
+||gd.189.cn^*.htm?SP=$popup,3p
+||gd.ct10000.com^*/push/$popup,3p
 ||google.com.hk^$replace=/ads//
+||haoxianggou.xyz/?from=$popup,3p
 ||hc-youku.sm.cn^$replace=/seatbid//
 ||hubpd.com/hubpd/*/js/pc.*.js^$replace=/(ads|adv)//i
 ||hubpd.com/hubpd/rss/toutiao/js/index.js^$replace=/(ads|adv)//i
@@ -1321,6 +1352,7 @@ zhidao.baidu.com^$replace=/ads_|ec_ads|addAdsCk/null/
 ||vm.gtimg.cn/c/=/tencentvideo/txpv5/creative/plugins^$replace=/(AD_|adBase)/sb/
 ||vm.gtimg.cn/tencentvideo/txpv5/creative/plugins/nextpart*.js^$replace=/(AD_|Ad)/sb/
 ||vm.gtimg.cn/tencentwap/script/QQVideo/activity/interact/interact*.js^$replace=/(adv)/\\$1/
+||vnet.cn^*.html?$popup,3p
 ||wapi.kuwo.cn/api/setting/signin/data?user^$replace=/data/what/
 ||weixin.qq.com^$replace=/wxsnsdythumb\.wxs\.qq\.com/qq.com/
 ||wenku.baidu.com/ndview/interface/hx/zsyx?page=search^$replace=/(adPlaceData|adPlacePosition)//
