@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-05-03T23:23:49.779Z
+! Last modified: 2026-05-04T23:34:29.740Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -18917,7 +18917,6 @@ zznews.cn##.ad:not([style])
 ||cgown.com^*/peiyinquan
 ||cha001.com/*/*.gif
 ||cha001.com/*/*.jpg
-||chachefa.com/asdfasdfqwer/
 ||chdbits.co/pic/*.gif
 ||chddh.com/G1G/
 ||cheers.com.tw/assets/js/fancyapps-

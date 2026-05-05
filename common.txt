@@ -17757,7 +17757,6 @@ zznews.cn##.ad:not([style])
 ||cgown.com^*/peiyinquan
 ||cha001.com/*/*.gif
 ||cha001.com/*/*.jpg
-||chachefa.com/asdfasdfqwer/
 ||chdbits.co/pic/*.gif
 ||chddh.com/G1G/
 ||cheers.com.tw/assets/js/fancyapps-
