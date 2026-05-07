@@ -270,6 +270,8 @@ $csp=script-src 'self' * 'unsafe-inline',domain=nipubook.com
 $csp=script-src 'self' * 'unsafe-inline',domain=nuoshuge.com
 $csp=script-src 'self' * 'unsafe-inline',domain=puquz.com
 $csp=script-src 'self' * 'unsafe-inline',domain=wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
+$csp=script-src 'self' * 'unsafe-inline',domain=ygshu.com
 $csp=script-src 'self' * 'unsafe-inline',domain=kbook8.com
 $csp=script-src 'self' * 'unsafe-inline',domain=yemancomic.com
 $csp=script-src 'self' * 'unsafe-inline',domain=erciyan.com
@@ -353,7 +355,6 @@ $csp=script-src 'self' * 'unsafe-inline',domain=shukuge.com
 $csp=script-src 'self' * 'unsafe-inline',domain=sthuojia.net
 $csp=script-src 'self' * 'unsafe-inline',domain=tvyun07.com
 $csp=script-src 'self' * 'unsafe-inline',domain=zk01.net
-$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com
 $csp=script-src 'self' *,domain=zduxs.com
 $csp=script-src 'self' *,domain=90shuyuan.com
@@ -16630,14 +16631,14 @@ $websocket,domain=wap.yushuwu.cloud
 12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
 12306.cn,club.pchome.net,qinbing.cn###slideBox
 12377.cn###notice
-123865.com##+js(no-window-open-if)
-123865.com##.bg_svip_block_ads
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##.baidu-banner-container
 123pan.com##.banner-container-h5
 123pan.com##.banner-container-pc
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
+123pan.com,123865.com##+js(no-window-open-if)
+123pan.com,123865.com##.bg_svip_block_ads
 123pan.com,meidebi.com,weicaixun.com#@#.share-list
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
@@ -16743,6 +16744,7 @@ $websocket,domain=wap.yushuwu.cloud
 1688.com.au##.ad_300_p
 16888.com##.cardataclass
 168gamer.com,168gamer.net##.b_tad
+169bbs.com##.a_f
 16fan.com##.item-newad
 16fan.com,jianshen8.com##.index-banner
 16sucai.com##.pindao_ad2
@@ -26504,9 +26506,7 @@ pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
-ping0.cc###adaright
 ping0.cc###adbright
-ping0.cc##.xyeles
 ping0.cc##.xzeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
 pinggu.org##.hdbanner
@@ -38361,7 +38361,6 @@ zzzyk.com###Tinfo
 ||ygdy8.com/jsy/
 ||ygdy8.net/js1/
 ||ygodl.com/wp-content/uploads/*.js
-||ygshu.com/js/h
 ||yhdm.io/bar/
 ||yhdm.so/bar/
 ||yhdm.tv/bar/
