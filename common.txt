@@ -285,7 +285,7 @@ $object,script,subdocument,3p,websocket,xhr,domain=147xiaoshuo.com
 $object,script,subdocument,3p,websocket,xhr,domain=156zw.com
 $object,script,subdocument,3p,websocket,xhr,domain=17k.com
 $object,script,subdocument,3p,websocket,xhr,domain=1biqu.com
-$object,script,subdocument,3p,websocket,xhr,domain=2kans.net
+$object,script,subdocument,3p,websocket,xhr,domain=2kans.org
 $object,script,subdocument,3p,websocket,xhr,domain=1pwx.com
 $object,script,subdocument,3p,websocket,xhr,domain=1qxs.com
 $object,script,subdocument,3p,websocket,xhr,domain=23hh.com
@@ -709,7 +709,6 @@ $websocket,domain=cechi8.com
 -2/ads/
 -2011ad_
 -300x100ad2.
--728-90-
 -880-80-4.jpg
 -Ad-Large_
 -Ad300x250.
@@ -778,7 +777,6 @@ $websocket,domain=cechi8.com
 -ad-link-
 -ad-live.
 -ad-loading.
--ad-manager/$~stylesheet
 -ad-map/
 -ad-marker.
 -ad-master/
@@ -1265,10 +1263,6 @@ $websocket,domain=cechi8.com
 .adtech_
 .adtooltip&
 .adv.cdn.
-.advert.$domain=~advert.ae
-.advert.$domain=~advert.io
-.advert.$domain=~advert.ly
-.advert.$domain=~advert.media
 .advertmarket.
 .advertrecycling.
 .adwolf.
@@ -1279,13 +1273,11 @@ $websocket,domain=cechi8.com
 .analysis.pv.
 .analytics.min.
 .ar/ads/
-.ashx?AdID=
 .ashx?ad=
 .asis?Log=
 .asp?coad
 .asp?t=*&c=$image
 .aspx?ad=
-.aspx?adid=
 .aspx?poolid=
 .aspx?trackid=
 .at/ads/
@@ -1314,10 +1306,8 @@ $websocket,domain=cechi8.com
 .cc/s.php?id=$script,third-party
 .cdn-tracking.js
 .cfd/$script,3p,domain=twkan.com
-.cfm?ad=
 .cfm?advideo%
 .cfm?poolid=
-.cgi?ad=
 .ch/ads/
 .ch/adv/
 .click/track?
@@ -1368,7 +1358,6 @@ $websocket,domain=cechi8.com
 .com/a?size
 .com/aaasi/*.js
 .com/ad.$domain=~ad-tuning.de
-.com/ad/$~image,third-party,domain=~mediaplex.com
 .com/ad/$~third-party,domain=~blogs.technet.microsoft.com
 .com/ad/$~third-party,domain=~channel4.com
 .com/ad/$~third-party,domain=~cspace.com
@@ -1397,8 +1386,6 @@ $websocket,domain=cechi8.com
 .com/ads/p2.js
 .com/ads?
 .com/ads_
-.com/adv/$domain=~advantabankcorp.com
-.com/adv/$domain=~archiproducts.com
 .com/adv3/
 .com/adv?
 .com/adv_
@@ -1458,7 +1445,6 @@ $websocket,domain=cechi8.com
 .com/miads/
 .com/mm.gif?
 .com/myjs/omg_alljs.js
-.com/ntfc.php?$script
 .com/obj/ad-pattern^
 .com/obj/ad-tetris-site
 .com/pagelogger/
@@ -1576,7 +1562,6 @@ $websocket,domain=cechi8.com
 .html?$third-party,domain=m.800xs.net
 .html?ad=
 .html?ad_
-.html?clicktag=
 .html?wpl=
 .hur0*kns.com/$script,xhr,3p
 .iads.js
@@ -1586,7 +1571,6 @@ $websocket,domain=cechi8.com
 .iframetracker/
 .il/ads.
 .il/ads/
-.im/ntfc.php?$script
 .in/ads.
 .in/ads/
 .info/ad_
@@ -1719,13 +1703,9 @@ $websocket,domain=cechi8.com
 .ph/ads/
 .php/ad/
 .php/ads/
-.php?ad=
 .php?ad_
-.php?adsid=
-.php?adv=
 .php?adv_
 .php?affid=$domain=~cancun-discounts.com
-.php?clicktag=
 .php?id=ads_
 .php?mg=$image
 .php?nats=
@@ -1742,7 +1722,6 @@ $websocket,domain=cechi8.com
 .png?cpn=
 .png?uid=*&tag=
 .popunder.js
-.popup_im.
 .popupvideoad.
 .prebid.js
 .propellerads.$domain=~propellerads.com
@@ -1966,7 +1945,6 @@ $websocket,domain=cechi8.com
 /?dm=*&blogid=$script,domain=~wordpress.org
 /?dsp_uid=
 /?mob.ct=
-/?view=ad
 /A-LogAnalyzer/*
 /ABAdsv1.
 /AD-970x90.
@@ -2819,7 +2797,6 @@ $websocket,domain=cechi8.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=147xiaoshuo.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=17k.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=1biqu.com
-/\/\w{8}\/\w{10}\./$script,~3p,domain=2kans.net
 /\/\w{8}\/\w{10}\./$script,~3p,domain=1pwx.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=23hh.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=23qb.com
@@ -3541,7 +3518,6 @@ $websocket,domain=cechi8.com
 /ad8.
 /ad?channel=
 /ad?cid=
-/ad?count=
 /ad?currentview=
 /ad?data=
 /ad?iframe_
@@ -3769,8 +3745,6 @@ $websocket,domain=cechi8.com
 /ad_pop.
 /ad_pop1.
 /ad_popup_
-/ad_pos=
-/ad_position=
 /ad_position_
 /ad_premium.
 /ad_premium_
@@ -4722,7 +4696,6 @@ $websocket,domain=cechi8.com
 /ads/a.
 /ads/ab/*
 /ads/abrad.
-/ads/acctid=
 /ads/ad-
 /ads/ad.
 /ads/ad_
@@ -5071,11 +5044,7 @@ $websocket,domain=cechi8.com
 /ads?callback
 /ads?code=
 /ads?cookie_
-/ads?id=
-/ads?param=
 /ads?spaceid
-/ads?zone=
-/ads?zone_id=
 /adsAPI.$domain=~snap.com
 /adsAPI.$domain=~snapchat.com
 /adsDateValidation.
@@ -5164,7 +5133,6 @@ $websocket,domain=cechi8.com
 /ads_yahoo.
 /adsa468.
 /adsa728.
-/adsadclient31.
 /adsadview.
 /adsales/*
 /adsall.$domain=~adsall.net
@@ -5513,7 +5481,6 @@ $websocket,domain=cechi8.com
 /adsys/*
 /adsystem.
 /adsystem/*
-/ads~adsize~
 /adtable_
 /adtabs.
 /adtadd1.
@@ -5534,7 +5501,6 @@ $websocket,domain=cechi8.com
 /adtech-
 /adtech.$domain=~adtech.md
 /adtech/*
-/adtech;
 /adtechHeader.
 /adtech_
 /adtechglobalsettings.js
@@ -5564,7 +5530,6 @@ $websocket,domain=cechi8.com
 /adtopmidsky.
 /adtopright.
 /adtopsky.
-/adtrack.$domain=~adtrack.ca
 /adtrack/*
 /adtracker.
 /adtracker/*
@@ -6072,7 +6037,6 @@ $websocket,domain=cechi8.com
 /aff/ads_
 /aff/banners/*
 /aff/images/*
-/aff_ad?$script
 /aff_banner/*
 /aff_banners/*
 /aff_frame.
@@ -6178,7 +6142,6 @@ $websocket,domain=cechi8.com
 /ajrotator/*
 /ajs.php?
 /ajs?auid=
-/ajs?zoneid=
 /ajx/ptrack/*
 /ak-ads-
 /ak/ads/*
@@ -6374,7 +6337,6 @@ $websocket,domain=cechi8.com
 /annonser/*
 /announce/adv/*
 /anprebid/*
-/anti-adblock/*$~stylesheet
 /anti_ab.
 /antiadblock.
 /antiblock_script/*
@@ -7109,7 +7071,6 @@ $websocket,domain=cechi8.com
 /click/ads_
 /click/creative/*
 /click/zone?
-/click?adv=
 /clickAnalyse.
 /clickLogger?
 /click_stat/*
@@ -7984,7 +7945,6 @@ $websocket,domain=cechi8.com
 /ezo/*$script,~third-party,domain=~yandex.kz
 /ezo/*$script,~third-party,domain=~yandex.ru
 /ezo/*$script,~third-party,domain=~yandex.ua
-/ezoic/*$script,~third-party
 /ezoic/*.gif?
 /ezytrack.
 /facash.
@@ -8146,7 +8106,6 @@ $websocket,domain=cechi8.com
 /friendfinder_
 /friends/*$image,domain=v2ex.com
 /frnads.
-/fro_lo.js$script
 /front/ad/*
 /front/ads-
 /frontads/*
@@ -8360,7 +8319,6 @@ $websocket,domain=cechi8.com
 /getads-
 /getads.
 /getads/*
-/getads?
 /getadserver.
 /getadsettingsjs?
 /getads|
@@ -8546,7 +8504,6 @@ $websocket,domain=cechi8.com
 /gootics.js
 /gosquared-livestats/*
 /gourmetads-
-/gpt.js$script
 /gpt.min.js
 /gpt_ads-
 /gpt_and_prebid/*
@@ -10020,7 +9977,6 @@ $websocket,domain=cechi8.com
 /p2/ads/*
 /p2ads/*
 /p8network.js
-/p?zoneId=
 /pa.dajiahao*.top/
 /packaged-js/trackers.
 /packages/adz/*
@@ -11050,8 +11006,6 @@ $websocket,domain=cechi8.com
 /site/ads/*
 /site/ads?
 /site/dfp-
-/site=*/size=*/viewid=
-/site=*/viewid=*/size=
 /siteAnalytics-
 /siteAnalytics.
 /site_ads.
@@ -11078,7 +11032,6 @@ $websocket,domain=cechi8.com
 /sitestatforms.
 /sitetracker21.
 /sitewide/ads/*
-/size=*/random=*/viewid=
 /sizes.gif?*=
 /sk1n-async.
 /skin/ad/*
@@ -11183,7 +11136,6 @@ $websocket,domain=cechi8.com
 /space.gif?host=
 /space_ad.
 /spacead/*
-/spacedesc=
 /spannerworks-tracking-
 /sparechange.js
 /spark_ad.
@@ -11972,7 +11924,6 @@ $websocket,domain=cechi8.com
 /tsrHitCounter.
 /tt_gb/skin_js/gg.js
 /ttgg/*.js$script,third-party
-/ttj?id=
 /ttt.gif?
 /ttz_ad.
 /tubeadvertising.
@@ -12400,7 +12351,6 @@ $websocket,domain=cechi8.com
 /wp-content/plugins/wp-super-popup/*$~stylesheet
 /wp-content/tracker.
 /wp-content/uploads/2016/10/2016103005450610.jpg
-/wp-content/uploads/useful_banner_manager_banners/*
 /wp-counter.php
 /wp-js/analytics.
 /wp-pixels/*
@@ -12566,9 +12516,6 @@ $websocket,domain=cechi8.com
 /youradhere468-
 /youradhere_
 /youtube-track-event_
-/youtubei/v*/player?$jsonprune=\$..[adPlacements\, adSlots\, playerAds],domain=youtubekids.com
-/youtubei/v*/player?$jsonprune=\$..[adPlacements\, adSlots\, playerAds],domain=youtube-nocookie.com
-/youtubei/v*/player?$jsonprune=\$..[adPlacements\, adSlots\, playerAds],domain=youtube.com
 /youtubei/v*/player?$jsonprune=\$.playerConfig.ssapConfig,domain=youtubekids.com
 /youtubei/v*/player?$jsonprune=\$.playerConfig.ssapConfig,domain=youtube-nocookie.com
 /youtubei/v*/player?$jsonprune=\$.playerConfig.ssapConfig,domain=youtube.com
@@ -12609,7 +12556,6 @@ $websocket,domain=cechi8.com
 /zxc.gif?
 /zxy?
 /zzhzgg.js
-/~cdn/ads/*
 /~r/Slashdot/slashdot/*
 /~utm_gif?
 0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,onlinedown.net,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxs.net,zhihu.com,ziyuanyo.com,zjstv.com##.ad
@@ -12945,7 +12891,6 @@ $websocket,domain=cechi8.com
 ://*:*/s.php?id=$script,third-party
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 ://8ox.cn/$3p
-://a.ads.
 ://ad.*/jstag^
 ://adcl.$domain=~adcl.com
 ://adcl.$domain=~adcl.screenconnect.com
@@ -13015,8 +12960,6 @@ $websocket,domain=cechi8.com
 ://adv.$domain=~r7.com
 ://adv.$domain=~typeform.com
 ://adv.$domain=~welaika.com
-://affiliate.$third-party
-://affiliates.$third-party
 ://affiliates2.$third-party
 ://analytics.*/collect?
 ://analytics.*/tracker.
@@ -13026,8 +12969,6 @@ $websocket,domain=cechi8.com
 ://ax-d.*/jstag^
 ://b.*/click?
 ://b.*/ping?
-://banner.$third-party
-://banners.$third-party
 ://bwp.*/search$domain=~pulte.com
 ://d.*/track.js
 ://delivery.*/jstag^
@@ -13703,7 +13644,6 @@ _ad_choices.
 _ad_choices_
 _ad_close.
 _ad_code.
-_ad_content.
 _ad_controller.
 _ad_count.
 _ad_count=
@@ -13947,7 +13887,6 @@ _advert_label.
 _advert_overview.
 _advert_sliders/
 _advert_vert
-_advertise-$domain=~linkedin.com
 _advertise.
 _advertise180.
 _advertisehere.
@@ -14230,7 +14169,6 @@ _radio_ad_
 _railads.
 _rebid.js
 _rectangle_ads.
-_reklama_$domain=~youtube.com
 _reporting_ads.
 _request_ad.
 _resource/analytics.js
@@ -15724,7 +15662,6 @@ porn5f.com##.position_fix_bottom
 porn5f.com##.preroll-adv-popup-iframe
 porn5f.com##.row:has(> div.col-lg-3 > div[style] > div.carousel-inner > p.ad-title)
 porn5f.com##.video-promote-adv
-porn87.com##.pc_instant
 pornbest.org##+js(abort-current-script, jQuery, injectPops)
 pornbest.org##.container-fluid > div.row:has(> div.item > div.card > div.card-body > div > span:contains(/^ad$/))
 poxiaotv.net##.vdbto,.qptp + a,[onclick],.qpgdo
@@ -18274,8 +18211,6 @@ zznews.cn##.ad:not([style])
 ||google.com/pagead^
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noop.html,domain=rjno1.com,important
 ||googletagmanager.com/gtag/js^
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=ani.gamer.com.tw
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=gamer.com.tw,important
 ||goupu.org/1files/*.swf
 ||gov*.cn:*/ty^
 ||gpcxw.com/file/js/img/*.gif
@@ -18640,7 +18575,6 @@ zznews.cn##.ad:not([style])
 ||j5.dfcfw.com/WG/appconf/*.png^
 ||j5.dfcfw.com/WG/conf/*.png^
 ||javdove.com/templates/frontend/javdove/*/partialviewslider.
-||javhd.com/*/300x250.html?
 ||javjunkies.com/FL$subdocument
 ||jb51.net/good*/arc*.js^
 ||jc001.cn/footer_float_bar/
@@ -19397,7 +19331,6 @@ zznews.cn##.ad:not([style])
 ||secretmine.net/wp-content/uploads/2019/08/secretmine_20190809_1565312910.jpg
 ||secure.ed4.net/GSI/$third-party
 ||secure.eveonline.com/ft/?aid=^
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=line.me
 ||sendtonews.com^*/data_logging.php
 ||serve.*/promoload?
 ||sex2077.com/js/dl.js
@@ -19996,7 +19929,6 @@ zznews.cn##.ad:not([style])
 ||xiakedy.org/js/jquery.
 ||xiami.com/player/iframe-adm?
 ||xiancn.com^*/adv_content/
-||xiangai365.com/ad_js/
 ||xianliao.me/ads
 ||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
@@ -21272,7 +21204,6 @@ javlibrary.com###sidebanner11
 cn.torrentkitty.app###note
 sukebei.nyaa.si##.servers-cost-money1
 pixiv.net##.premium-lead
-pixiv.net##.ad-frame-container
 pixiv.net##ul.pixiv.tri
 pixiv.net##li.platform-pc
 pixiv.net##._floated-bottom-bar
