@@ -26497,7 +26497,7 @@ pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping0.cc###adbright
 ping0.cc##.xzeles
-ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
+ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
 pinggu.org##.indextop-r
@@ -32093,7 +32093,7 @@ zzzyk.com###Tinfo
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.jsdelivr.net/gh/bde4admin/*/js/common*.js^$replace=/(if\s*?\(IsPC\(\)\)|keyCode|if\(\s*?window\.canRunAds\s*?\=\=\=\s*?undefined\s*?\))/!\/\/if (IsPC())/i
-||cdn.ping0.cc/images/ax/*.gif$~3p
+||cdn.ping0.cc/images/dx/*.gif$~3p
 ||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noop-0.1s.mp3,domain=m.yichengwlkj.com
 ||cdn.shdsp.net/ad
 ||cdn.staticfile.org/jquery/2.0.0/jquery.min.js$script,domain=kfkn8s.65h79.cn

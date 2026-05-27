@@ -12599,6 +12599,7 @@ $websocket,domain=cechi8.com
 123.com.cn##.wraper_ad
 12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
 123pan.com,123865.com##+js(no-window-open-if)
+123pan.com,123865.com##.bg_svip_block_ads
 139.99.9.29,app=com.yyets.pro
 13mv.com##.aggd
 13mv.com##li[id^="media_image-"]
@@ -15634,7 +15635,6 @@ piaotian5.net##script + div[style="padding:15px;"]
 piaotianxs.com##script ~ a
 pic.imgdb.cn/item/*.gif
 pincong.rocks##+js(no-setInterval-if, Ad Block)
-ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
 pinlue.com##.appOnly-container.feed-list-container
 pinlue.com##.article-container > .cat_title.section-hd
 pixabay.com##.carbon-ad
@@ -17730,7 +17730,7 @@ zznews.cn##.ad:not([style])
 ||cdn.baidupcs.com/monitor.jpg?
 ||cdn.data.video.iqiyi.com/cdn/qiyiapp/*/ticket_android_plugin.bundle
 ||cdn.dfile.cn/slot/
-||cdn.ping0.cc/images/ax/*.gif$~3p
+||cdn.ping0.cc/images/dx/*.gif$~3p
 ||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noop-0.1s.mp3,domain=m.yichengwlkj.com
 ||cdn.staticfile.org/jquery/2.0.0/jquery.min.js$script,domain=kfkn8s.65h79.cn
 ||cdn.wtzw.com/bookimg/free/api/v1/reader/reader-copy-paragraph-all.json^
