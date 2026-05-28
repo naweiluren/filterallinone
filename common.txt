@@ -195,6 +195,7 @@ $3p,xhr,domain=subhdtw.com
 $3p,xhr,domain=zzzzz688.com
 $image,3p,domain=258zw.com
 $image,3p,domain=lady1.top
+$object,script,subdocument,3p,websocket,xhr,domain=23xswv.cc
 $object,script,subdocument,3p,websocket,xhr,domain=biduzw.org
 $object,script,subdocument,3p,websocket,xhr,domain=xbiqige.cc
 $object,script,subdocument,3p,websocket,xhr,domain=niuyankan.top
@@ -12598,8 +12599,7 @@ $websocket,domain=cechi8.com
 121xz.com##.c_money
 123.com.cn##.wraper_ad
 12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
-123pan.com,123865.com##+js(no-window-open-if)
-123pan.com,123865.com##.bg_svip_block_ads
+123pan.cn,123865.com##+js(no-window-open-if)
 139.99.9.29,app=com.yyets.pro
 13mv.com##.aggd
 13mv.com##li[id^="media_image-"]
@@ -14788,7 +14788,6 @@ find.ruten.com.tw##.site_evt
 fishpi.cn##.module:has(>.ad)
 flyblog.cc#?#.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
 flyblog.cc,maxfoodfun.com##.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
-foodieteller.com##+js(abort-on-property-write, __ad_unblock_id_obfuscation)
 forum.hkgolden.com##body > div[class^="jss"]:has(> div[class][style^="transform"]:only-child > div[class] > div[data-role="ad"])
 fox-saying.com###sidebar__inner > #links-row-1 > .box.folder:has(> h4:contains(AD))
 free.com.tw###custom_html-7
@@ -15509,6 +15508,7 @@ myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_b
 mysteel.com##body:style(background-image: none !important;)
 mzyz.com###idTransformView2
 n3ro.live##.card > .row
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##+js(abort-on-property-write, __ad_unblock_id_obfuscation)
 nanfengyl.com,ziyuanba.com##.top-ad-txt
 nb.zol.com.cn##+js(set-cookie, getIsToJd, 1)
 netfly.fun##.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])

@@ -377,6 +377,7 @@ $image,3p,domain=258zw.com
 $image,3p,domain=lady1.top
 $image,third-party,domain=258zw.com
 $image,third-party,domain=lady1.top
+$object,script,subdocument,3p,websocket,xhr,domain=23xswv.cc
 $object,script,subdocument,3p,websocket,xhr,domain=biduzw.org
 $object,script,subdocument,3p,websocket,xhr,domain=xbiqige.cc
 $object,script,subdocument,3p,websocket,xhr,domain=niuyankan.top
@@ -16621,14 +16622,15 @@ $websocket,domain=wap.yushuwu.cloud
 12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
 12306.cn,club.pchome.net,qinbing.cn###slideBox
 12377.cn###notice
+123pan.cn##.web-wrap > div:has(> img[src^="https://statics.123pan.com/"])
+123pan.cn,123865.com##+js(no-window-open-if)
+123pan.cn,123865.com##.bg_svip_block_ads
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##.baidu-banner-container
 123pan.com##.banner-container-h5
 123pan.com##.banner-container-pc
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
-123pan.com,123865.com##+js(no-window-open-if)
-123pan.com,123865.com##.bg_svip_block_ads
 123pan.com,meidebi.com,weicaixun.com#@#.share-list
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
@@ -18983,6 +18985,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||bdimg.com/libs/$domain=yuyougu.com
 @@||bdimg.com/libs/$domain=zbzw.la
 @@||bdimg.com/libs/$domain=zhhbqg.com
+@@||bdimg.com/libs/$domain=23xswv.cc
 @@||bdimg.com/libs/$domain=biquge77.net
 @@||bdimg.com/libs/$domain=yebiquge.com
 @@||bdimg.com/libs/$domain=taobiquge.com
@@ -23150,8 +23153,6 @@ fmprc.gov.cn,mfa.gov.cn#@#.adbox2
 fnc.ebc.net.tw##.dfp_ad
 followme.cn##.fm-banner-social
 followme.cn##.money-box
-foodieteller.com##+js(abort-on-property-write, __ad_unblock_id_obfuscation)
-foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
 foodmate.net##.ad5
 foodmate.net##.m[style="height:40px;"]
 foodmate.net##.zx_ad
@@ -25991,6 +25992,8 @@ n3ro.live##.card > .row
 naifei.im##.tg_w
 naifei.im##div[class^="wp-none"]
 naifei.im##div[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##+js(abort-on-property-write, __ad_unblock_id_obfuscation)
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
 nanfengyl.com,ziyuanba.com##.top-ad-txt
@@ -26096,6 +26099,7 @@ newsmth.net###ban_ner
 newsmth.net##.b-content > #sogou_banner:nth-child(3)
 newsmth.net##.ns-ad
 newtalk.tw###_popIn_recommend
+newtalk.tw##.ad-half
 newtalk.tw##.dable_response
 newtalk.tw##.extend_ad
 newtalk.tw##div[id^="ATS_"]
@@ -27799,6 +27803,7 @@ tuijian.hao123.com###kuaixun
 tuku.cc##.TLAD
 tuliu.com##.zx-advertising-box
 tumutanzi.com###text-3
+tupaki.com##div[id^="detail_wrap_ad"]
 tuwan.com##.Video-r-ad
 tuwan.com##div[style$="height:90px;"]
 tuwan.com##div[style="width: 360px;margin-top:10px;"]
@@ -30013,6 +30018,7 @@ zzzyk.com###Tinfo
 ||123.sogou.com/discover/?
 ||12333sbt.com/inc/
 ||1236226.com/html/
+||123pan.cn/b/api/restful/goapi/v1/am_config/get?*&key=web_ads
 ||125.94.60.144:80^$app=com.tencent.mobileqq
 ||12580sky.com/gg/
 ||126.com/get.do?*=themeHandler.
@@ -35134,6 +35140,7 @@ zzzyk.com###Tinfo
 ||lsnzxzy1.com/Runtime/js/psData.js
 ||ltassrv.com/track/
 ||ltbyw.top/data/images/*.gif
+||ltd.ua/zz
 ||ltn.com.tw/js/ad_door.js
 ||lts*.qq.com^*.ts?index=$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||ltsws.qq.com/*.ts.m3u8
@@ -35750,6 +35757,7 @@ zzzyk.com###Tinfo
 ||newsmth.net/nForum/baiduunion/
 ||newsmth.net/nForum/googlead/
 ||newsres.cn/temp/tempad
+||newtalk.tw/js/ad/
 ||newton.pm/events/track_bulk
 ||newume.com/v1/data/ume-
 ||newyx.net^*/down_yd.js
@@ -37077,6 +37085,7 @@ zzzyk.com###Tinfo
 ||static1.51cto.com/edu/blog/mobile/js/lib/box.js^
 ||staticiot.cdn.bcebos.com/union/badjs-sdk-min-1.1.1.js
 ||staticporn.cc/static/tmp/
+||statics.123pan.com/fe/phoenix-share/js/pcwapad.min.js
 ||statics.123pan.com/share-static/dist/umi*.js^$replace=/(adv-container-pc)//
 ||statics.tuliu.com/stats/js/tb_prod_v1.js^
 ||statking.net^*/count.js
