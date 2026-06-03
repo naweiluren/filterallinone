@@ -2,9 +2,9 @@
 # filterallinone
 
 ```
-    更新时间: 2026-06-02 11:15:45 （北京时间） 
+    更新时间: 2026-06-03 11:29:20 （北京时间） 
 
-ziyongdns: 158140 lines
+ziyongdns: 143426 lines
 ziyongruler: 22668 lines
 ```
 
